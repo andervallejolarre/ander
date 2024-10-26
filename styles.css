@@ -1,0 +1,149 @@
+:root {
+  --bg: hsl(0 0% 8%);
+  --c: hsl(0 0% 100%);
+  --c-2: hsl(0 0% 50%);
+
+  --sp-rto: 1.618;
+
+  --sp-s: 8px;
+  --sp-m: calc(var(--sp-s) * var(--sp-rto));
+  --sp-l: calc(var(--sp-m) * var(--sp-rto));
+  --sp-xl: calc(var(--sp-l) * var(--sp-rto));
+  --sp-xxl: calc(var(--sp-xl) * var(--sp-rto));
+
+  --tx-rto: 1.414;
+
+  --tx-s: 15px;
+  --tx-m: calc(var(--tx-s) * var(--tx-rto));
+  --tx-l: calc(var(--tx-m) * var(--tx-rto));
+  --tx-xl: calc(var(--tx-l) * var(--tx-rto));
+  --tx-xxl: calc(var(--tx-xl) * var(--tx-rto));
+
+  --page-padding: var(--sp-xl);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--c);
+  font-family: nb grotesk, monospace;
+  font-size: var(--tx-s);
+  line-height: 1.4;
+  /* letter-spacing: -0.1em; */
+}
+
+h1 {
+  font-size: unset;
+}
+
+p {
+  margin: 0;
+}
+
+p+p {
+  margin-top: var(--sp-m);
+}
+
+.root {
+  display: grid;
+  gap: var(--sp-xl);
+  grid-template-columns: 1fr 1fr 1.5fr 1fr;
+  height: 100%;
+  padding-inline: var(--page-padding);
+  /* background: papayawhip; */
+  overflow: hidden;
+}
+
+.header {
+  padding-block: var(--page-padding);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-title {
+  margin: 0;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--sp-xl);
+}
+
+.footer {
+  align-content: end;
+  color: var(--c-2);
+}
+
+.player-section {
+  padding-block: var(--page-padding);
+  align-content: center;
+}
+
+.images-section {
+  overflow: auto;
+  padding-block: 200px;
+}
+
+.images-section img {
+  width: 100%;
+}
+
+.description-section {
+  padding-block: var(--page-padding);
+  align-content: end;
+}
+
+.menu-list {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list-item-link {
+  color: var(--c-2);
+  text-decoration: none;
+  display: block;
+}
+
+.menu-list-item-link:hover {
+  color: var(--c);
+}
+
+.menu-list-item .active {
+  color: inherit;
+}
+
+.description-secondary {
+  color: var(--c-2);
+}
+
+.category-list-item {
+  color: var(--c-2);
+}
+
+.category-list-item:hover {
+  color: var(--c);
+  cursor: default;
+}
