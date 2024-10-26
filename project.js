@@ -51,7 +51,7 @@ const descriptionSection = `
   </div>
 `
 
-root.innerHTML = header
+root.innerHTML = header()
 
 if(currentProject) {
   document.title = currentProject.title;
