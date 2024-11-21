@@ -40,7 +40,7 @@ body {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: pink;
   color: var(--c);
   font-family: nb grotesk, monospace;
   font-size: var(--tx-s);
@@ -75,7 +75,6 @@ p+p {
   grid-template-columns: 1fr 1fr 1.5fr 1fr;
   height: 100%;
   padding-inline: var(--page-padding);
-  /* background: papayawhip; */
   overflow: hidden;
 }
 
@@ -98,6 +97,7 @@ p+p {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--sp-xl);
+  align-self: center;
 }
 
 .footer {
@@ -106,17 +106,29 @@ p+p {
 }
 
 .player-section {
-  padding-block: var(--page-padding);
   align-content: center;
 }
 
 .images-section {
   overflow: auto;
   padding-block: 200px;
+  display: grid;
+  gap: var(--sp-s);
 }
 
 .images-section img {
   width: 100%;
+  display: block;
+}
+
+.images-section {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.images-section::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
 }
 
 .description-section {

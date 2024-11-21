@@ -18,8 +18,6 @@ if (projectTitle) {
 
 const currentProject = projects.find(project => toKebabCase(project.title) === projectTitle);
 
-const uniqueCategories = [...new Set(projects.map(project => project.category))];
-
 const playerSection = `
   <div class="player-section">
     <span
@@ -35,8 +33,29 @@ const playerSection = `
 `
 
 const imagesSection = `
-  <div class="images-section">
-    ${currentProject.images.map(image => `<img src="../content/images/${image}">`).join('')}
+  <div class="images-section">    
+    ${currentProject.vimeoVideos 
+      ? currentProject.vimeoVideos.map(video => `
+        <div style="position: relative; padding-top: 56.25%;">
+          <iframe 
+            title="vimeo-player" 
+            src="https://player.vimeo.com/video/${video}" 
+            frameborder="0" 
+            allowfullscreen
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+          ></iframe>
+        </div>
+      `).join('') 
+      : ''
+    }
+
+    ${currentProject.images ? currentProject.images.map(image => `<img src="../content/images/${image}">`).join('') : ''}
   </div>
 `
 
@@ -45,13 +64,14 @@ const descriptionSection = `
     <p>
       ${currentProject.description}
     </p>
-    <p class="description-secondary">
-      ${currentProject.descriptionSecondary}
-    </p>
+    ${currentProject.descriptionSecondary 
+      ? `<p class="description-secondary">${currentProject.descriptionSecondary}</p>` 
+      : ``
+    }
   </div>
 `
 
-root.innerHTML = header()
+root.innerHTML = header() + playerSection + imagesSection + descriptionSection;
 
 if(currentProject) {
   document.title = currentProject.title;

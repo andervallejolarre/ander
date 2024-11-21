@@ -10,6 +10,10 @@ const projects = [
       `Los temas publicados y su secuencia reflejan el crecimiento del artista, lo que va llamando su atención en el camino y algo de su curiosidad a nivel conceptual que busca reflejar en cada tema.`
     ],
     images: ['image2.jpg', 'image.jpg'],
+    vimeoVideos: [
+      `985012270?h=e38d3b1611`,
+      `985788851?h=bfded2fb90`,
+    ]
   },
   {
     title: 'Proyectos Externos',

@@ -40,7 +40,7 @@ export const header = () => {
       </nav>
 
       <footer class="footer">
-        <a class="footer-link link" href="/about.html">
+        <a class="link" href="/about.html">
           About
         </a>
       </footer>
