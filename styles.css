@@ -40,7 +40,7 @@ body {
 
 body {
   margin: 0;
-  background: pink;
+  background: var(--bg);
   color: var(--c);
   font-family: nb grotesk, monospace;
   font-size: var(--tx-s);
