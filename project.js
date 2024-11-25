@@ -22,7 +22,6 @@ const playerSection = `
   <div class="player-section">
     <span
       style="display: block;
-      background: var(--c);
       height: 1px;
       width: 100%;
       "

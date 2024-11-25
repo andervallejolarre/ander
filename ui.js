@@ -12,7 +12,7 @@ export const header = () => {
       </h1>
 
       <nav class="menu">
-        <div id="category-list">
+        <div id="category-list" class="category-list">
           ${uniqueCategories.map(category => {
             return `
               <div 
@@ -39,11 +39,11 @@ export const header = () => {
         </ul>
       </nav>
 
-      <footer class="footer">
+      <div class="about-link-section">
         <a class="link" href="/about.html">
           About
         </a>
-      </footer>
+      </div>
     </header>
   `
 }
