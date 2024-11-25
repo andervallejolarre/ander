@@ -116,4 +116,21 @@ const projects = [
   
 ]
 
-export { projects };
+const aboutContent = {
+  image: 'profile.jpg',
+  about: `
+    <p>Ander Vallejo Larre es un productor musical, artista digital y researcher. Con especial interés en la conexión entre la ciencia y el arte, la utilización de nuevas tecnologías y el rol del artista/compositor como divulgador de conocimiento. Su práctica se ha basado en la investigación de herramientas electrónicas como extensión de la naturaleza, con especial interés en la sonificación y el uso de interfaces para la improvisación, técnicas que han sido desarrolladas a lo largo de su trabajo.</p>
+    <p>Como músico ha participado en festivales y escenarios importantes de Ecuador y de España donde, como productor musical, participa en festivales como LAVS Mataró, Planteka Fest o medios importantes de televisión como rtve en el programa “Va de Verd”. En Barcelona empieza su incursión en la creación de instalaciones inmersivas y obras interactivas que se expondrían en distintos lugares de Barcelona, Buenos Aires, entre otras ciudades. Su actividad, el mensaje y su adentramiento en la escena local Barcelonés lo llevan a participar en [Dubla.es](http://Dubla.es) Radio comunitaria con un programa mensual didáctico y de entretenimiento.</p>
+  `,
+  bio:`
+    <p>Estudié producción musical buscando comprender más de la parte técnica detrás de la música. Continue por completar esta formación estudiando piano Jazz al ver el potencial de la improvisación, además de las bases teóricas musicales. Trabajando tanto en estudios como escenarios de música en vivo, en producción de proyectos personales como para clientes, y en la utilización de instrumentos acústicos, electrónicos y digitales, conseguí soltura y confianza con estas herramientas para ser utilizadas en cualquier tipo de situación.</p>
+    <p>Con el tiempo el interés constante por los intrumentos electrónicos/análogos me llevó a incursionar en la electrónica y la programación, esto junto con mi acercamiento hacia narrativas interactivas alrededor de la botánica y ecología me llevaron a retomar mis estudios en Barcelona con una carrera que ampliara mi conocimiento sobre estos aspectos y me impulsara a seguir desarrollando mi trabajo.</p>
+  `,
+  studies: `
+    <p>MA Innovación Audiovisual y Entornos Interactivos. BAU Centro Universitario de Artes y Diseño en Barcelona, España. 2023 - 2024</p>
+    <p>BA Música Contemporanea y Piano Jazz. Universidad San Francisco de Quito, Ecuador (Berklee International Network). 2015 - 2017</p>
+    <p>BA Producción Musical y de Sonido. Universidad Sanfrancisco de Quito, Ecuador (Berklee International Network). 2010 - 2015</p>
+  `
+}
+
+export { projects, aboutContent };

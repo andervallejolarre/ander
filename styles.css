@@ -52,6 +52,12 @@ h1 {
   font-size: unset;
 }
 
+h2 {
+  font-size: unset;
+  font-weight: 700;
+  margin-top: var(--sp-xl);
+}
+
 p {
   margin: 0;
 }
@@ -90,16 +96,53 @@ p+p {
   overflow: hidden;
 }
 
+.about-root {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width: 1024px) {
-  .root {
+
+  .root,
+  .about-root {
     grid-template-columns: 1fr;
     height: unset;
+    gap: 0;
+  }
+}
+
+
+.about-image-section {
+  padding-block: var(--page-padding);
+  max-height: calc(100vh - var(--page-padding));
+}
+
+.about-image-section img {
+  width: 100%;
+  display: block;
+}
+
+.about-text-section {
+  align-self: end;
+  padding-block: var(--page-padding);
+  overflow: auto;
+  max-height: calc(100vh - var(--page-padding));
+}
+
+@media (max-width: 1024px) {
+  .about-image-section {
+    padding: 0;
+  }
+
+  .about-text-section {
+    overflow: unset;
+    max-height: unset;
   }
 }
 
 .header {
   padding-block: var(--page-padding);
   gap: var(--page-padding);
+  max-height: 100vh;
   display: grid;
   grid-template-areas:
     "main-title"
@@ -180,12 +223,6 @@ p+p {
 .description-section {
   padding-block: var(--page-padding);
   align-content: end;
-}
-
-@media (max-width: 1024px) {
-  .description-section {
-    padding-top: unset;
-  }
 }
 
 .links-section {
