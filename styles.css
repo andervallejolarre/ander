@@ -2,6 +2,7 @@
   --bg: hsl(0 0% 8%);
   --c: hsl(0 0% 100%);
   --c-2: hsl(0 0% 50%);
+  --c-3: hsl(0 0% 30%);
 
   --sp-rto: 1.618;
 
@@ -61,12 +62,24 @@ p+p {
 }
 
 .link {
-  color: var(--c2);
+  color: var(--c-2);
   text-decoration: none;
 }
 
 .link:hover {
   color: var(--c);
+}
+
+.underline-link {
+  color: var(--c-2);
+  text-underline-position: under;
+  text-decoration-thickness: 0.5px;
+  text-decoration-color: var(--c-3);
+}
+
+.underline-link:hover {
+  color: var(--c);
+  text-decoration-color: currentColor;
 }
 
 .root {
@@ -134,6 +147,12 @@ p+p {
 .description-section {
   padding-block: var(--page-padding);
   align-content: end;
+}
+
+.links-section {
+  margin-top: var(--sp-m);
+  display: flex;
+  gap: var(--sp-s);
 }
 
 .menu-list {

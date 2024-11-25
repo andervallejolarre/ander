@@ -33,41 +33,47 @@ const playerSection = `
 `
 
 const imagesSection = `
-  <div class="images-section">    
-    ${currentProject.vimeoVideos 
-      ? currentProject.vimeoVideos.map(video => `
-        <div style="position: relative; padding-top: 56.25%;">
-          <iframe 
-            title="vimeo-player" 
-            src="https://player.vimeo.com/video/${video}" 
-            frameborder="0" 
-            allowfullscreen
-            style="
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-            "
-          ></iframe>
-        </div>
-      `).join('') 
+  <div class="images-section">
+    ${
+      currentProject.visuals 
+      ? currentProject.visuals.map(visual => {
+        if(visual.image) {
+          return `<img src="../content/images/${visual.image}">`
+        } else if(visual.vimeo) {
+          return `
+            <div style="position: relative; padding-top: 56.25%;">
+              <iframe 
+                title="vimeo-player" 
+                src="https://player.vimeo.com/video/${visual.vimeo}?controls=1&title=0&byline=0&portrait=0" 
+                frameborder="0" 
+                allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+              ></iframe>
+            </div>
+          `
+        }
+      }).join('') 
       : ''
     }
-
-    ${currentProject.images ? currentProject.images.map(image => `<img src="../content/images/${image}">`).join('') : ''}
   </div>
 `
 
 const descriptionSection = `
   <div class="description-section">
-    <p>
-      ${currentProject.description}
-    </p>
-    ${currentProject.descriptionSecondary 
-      ? `<p class="description-secondary">${currentProject.descriptionSecondary}</p>` 
-      : ``
-    }
+    ${currentProject.description}
+    ${currentProject.links ? (
+      `<div class="links-section">
+        ${Object.entries(currentProject.links).map(([key, value]) => {
+          return `<a class="underline-link" href="${value}" target="_blank">${key}</a>`
+        }).join('')}
+      </div>`
+    ): ''}
   </div>
 `
 
