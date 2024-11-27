@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
   --bg: hsl(0 0% 8%);
-  --c: hsl(0 0% 100%);
+  --c: hsl(0 0% 93%);
   --c-2: hsl(0 0% 50%);
   --c-3: hsl(0 0% 30%);
 
@@ -46,6 +50,8 @@ body {
   font-family: nb grotesk, monospace;
   font-size: var(--tx-s);
   line-height: 1.4;
+
+
 }
 
 h1 {

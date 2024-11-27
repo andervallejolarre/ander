@@ -8,7 +8,7 @@ export const header = () => {
   return `
     <header class="header">  
       <h1 class="main-title">
-        <a href="/" class="main-title-link">Ander Vallejo Larre</a>
+        <a href="/" class="main-title-link">ANDER VALLEJO LARRE</a>
       </h1>
 
       <nav class="menu">
