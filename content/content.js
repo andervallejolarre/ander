@@ -92,7 +92,11 @@ const projects = [
     title: `Nou Space`, 
     category: 'Instalaciones', 
     description: `
-      <p>This is a description of project</p>
+      <p>Instalación sonora cuadrafónica creada bajo el concepto “Diálogos del Siglo XXI: Del físico al digital” para ambientar la primera exposición de Nou Lab.</p>
+      <p>Secuencias aleatorias digitales controlando sintetizadores analógicos y grabaciones de campo procesadas y modificadas por computadoras. Sonidos distribuidos por el espacio que cambiarían el caracter contemplativo de la exposición en una experiencia inmersiva.</p>
+      <p>Experiencia que culminaría al intervenir en el paisaje sonoro para transformarlo en un Live performance, añadiendo así un grado más de complejidad en el diálogo constante del mundo físico con el mundo digital de esta cápsula artística.</p>
+      <p>Artistas involucradxs: Stella Rahola, Riviersneda, Francisco M Lucini y Noob Stuff. </p>
+      <p>Evento Inaugural del estudio de diseño multidisciplinal Nou Lab en Barcelona, España (2022). </p>
     `,
     visuals: [
       { image: `7D30501D-13E2-4AD0-9088-A4EF4CCFDAC8.JPG` },
