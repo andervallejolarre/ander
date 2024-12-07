@@ -53,6 +53,9 @@ const projects = [
     `,
     visuals: [
       { vimeo: `985765109` },
+      { image: `Foto_retocada-48.jpeg` },
+      { image: `Foto_retocada-51.jpeg` },
+      { image: `Simbioc3no.jpeg` },
     ],
   },
   { 
