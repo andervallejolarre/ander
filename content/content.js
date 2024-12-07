@@ -1,5 +1,6 @@
 const projects = [
   {
+    id: 'ander',
     title: 'ANDER',
     category: 'Producción',
     description: `
@@ -28,6 +29,7 @@ const projects = [
     ],
   },
   {
+    id: 'proyectos-externos',
     title: 'Proyectos Externos',
     category: 'Producción',
     description: `
@@ -42,6 +44,7 @@ const projects = [
     ],
   },
   {
+    id: `simbioc3no`,
     title: `Simbioc3no`,
     category: `Instalaciones`,
     description: `
@@ -59,6 +62,7 @@ const projects = [
     ],
   },
   { 
+    id: `fusión-botánica`, 
     title: `Fusión Botánica`, 
     category: 'Instalaciones', 
     description: `
@@ -71,6 +75,7 @@ const projects = [
     ],
   },
   { 
+    id: `planta-kinetica`, 
     title: `Planta Kinetica`, 
     category: 'Instalaciones', 
     description: `
@@ -83,6 +88,7 @@ const projects = [
     ],
   },
   { 
+    id: `nou-space`, 
     title: `Nou Space`, 
     category: 'Instalaciones', 
     description: `
@@ -97,6 +103,7 @@ const projects = [
     ],
   },
   { 
+    id: `when-plants-sing`, 
     title: `When Plants Sing`, 
     category: 'Comunicación', 
     description: `
@@ -109,6 +116,7 @@ const projects = [
     ],
   },
   { 
+    id: `radio-y-curaduría-sonora`, 
     title: `Radio y curaduría sonora`, 
     category: 'Comunicación', 
     description: `

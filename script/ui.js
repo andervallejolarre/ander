@@ -27,10 +27,10 @@ export const header = () => {
         <ul class="menu-list" id="menu-list">
           ${projects.map(project => {
             return `
-              <li class="menu-list-item" data-category="${toKebabCase(project.category)}">
+              <li class="menu-list-item" data-category="${project.id}">
                 <a 
-                  class="menu-list-item-link ${currentPath.includes(toKebabCase(project.title)) ? 'active' : ''}" 
-                  href="/${toKebabCase(project.title)}.html"
+                  class="menu-list-item-link ${currentPath.includes(project.id) ? 'active' : ''}" 
+                  href="/${project.id}.html"
                 >
                   ${project.title}
                 </a>
