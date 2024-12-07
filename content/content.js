@@ -98,6 +98,10 @@ const projects = [
       <p>Artistas involucradxs: Stella Rahola, Riviersneda, Francisco M Lucini y Noob Stuff. </p>
       <p>Evento Inaugural del estudio de diseño multidisciplinal Nou Lab en Barcelona, España (2022). </p>
     `,
+    links: {
+      instagram: `https://www.instagram.com/p/CcVkzZyswew/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==`,
+      soundcloud: `https://soundcloud.com/anderground/nou-space-live-at-noulab?si=cb1eabe3a443461ba3efa455f980ea1f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
+    },
     visuals: [
       { image: `7D30501D-13E2-4AD0-9088-A4EF4CCFDAC8.JPG` },
       { image: `9E3417FA-14B7-478D-9B28-609C98D1F381.JPG` },
