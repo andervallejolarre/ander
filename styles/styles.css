@@ -229,6 +229,7 @@ p+p {
 .description-section {
   padding-block: var(--page-padding);
   align-content: end;
+  overflow: auto;
 }
 
 .links-section {
