@@ -42,15 +42,17 @@ const projects = [
     ],
   },
   {
-    title: 'Simbioc3no',
-    category: 'Instalaciones',
+    title: `Simbioc3no`,
+    category: `Instalaciones`,
     description: `
-      <p>This is a description of project</p>
+      <p>La instalación artística inmersiva “Simbioc3no: Temporalidades ecoicas y memorias futuras”  pretende retratar un escenario futuro de la naturaleza donde el ser humano ya no es parte de ella pero la huella de nuestra existencia si.</p>
+      <p>Luego de una sexta extinción masiva y con unas condiciones planetarias que impiden el funcionamiento de los ecosistemas tal cual como los conocemos hoy en día, se requieren de nuevos sistemas de colaboración y comunicación intraespecie para retomar el balance natural.</p>
+      <p>En colaboración con Andrea Galano, Pierantonio Mangia y Rocío Gomez, proponemos un sistema simbiótico en el que la naturaleza se apoya en la tecnología que dejamos los humanos y los residuos de nuestra actividad, para continuar con su existencia.</p>
+      <p>Partiendo de la reformulación del neo fosil, nos encontramos viajando por distintas eras geológicas que nos ayudaran a imagina una nueva, representada en una fábula especulativa de cuatro partes y una instalación audiovisual que implementara sistemas electrónicos de control, biofeedback, creative coding, iluminación programada y audio generativo.  </p>
+      <p>Obra creada y presentada como Proyecto Final de Master en el master de Innovación Audiovisual y Entronos Interactivos (2023-2024) de la BAU Centre Universitari d’Arts i Disseny en Barcelona, España.</p>
     `,
     visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
+      { vimeo: `985765109` },
     ],
   },
   { 
