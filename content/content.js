@@ -112,7 +112,7 @@ const projects = [
   },
   { 
     id: `when-plants-sing`, 
-    title: `When Plants Sing`, 
+    title: `When... Plants... Sing`, 
     category: 'Comunicación', 
     description: `
       <p>This is a description of project</p>
