@@ -1,4 +1,4 @@
-import { aboutContent } from './content/content.js';
+import { aboutContent } from '../content/content.js';
 import { header } from './ui.js';
 
 const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');

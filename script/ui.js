@@ -1,4 +1,4 @@
-import { projects } from './content/content.js';
+import { projects } from '../content/content.js';
 
 const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
 const uniqueCategories = [...new Set(projects.map(project => project.category))];
@@ -30,7 +30,7 @@ export const header = () => {
               <li class="menu-list-item" data-category="${toKebabCase(project.category)}">
                 <a 
                   class="menu-list-item-link ${currentPath.includes(toKebabCase(project.title)) ? 'active' : ''}" 
-                  href="/p/${toKebabCase(project.title)}.html"
+                  href="/${toKebabCase(project.title)}.html"
                 >
                   ${project.title}
                 </a>

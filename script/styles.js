@@ -1,4 +1,4 @@
-import { projects } from './content/content.js';
+import { projects } from '../content/content.js';
 
 const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
 const uniqueCategories = [...new Set(projects.map(project => project.category))];

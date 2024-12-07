@@ -1,4 +1,4 @@
-import { projects } from './content/content.js';
+import { projects } from '../content/content.js';
 import { header } from './ui.js';
 
 const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
@@ -8,7 +8,7 @@ const homeRoot = document.getElementById('home-root');
 console.log(homeRoot);
 
 const path = window.location.pathname;
-const projectTitle = path.split('/p/')[1]?.replace('.html', '');
+const projectTitle = path.split('/')[1]?.replace('.html', '');
 
 if (projectTitle) {
   console.log(`Project title: ${projectTitle}`);
