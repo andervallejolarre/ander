@@ -8,15 +8,9 @@ const homeRoot = document.getElementById('home-root');
 console.log(homeRoot);
 
 const path = window.location.pathname;
-const projectTitle = path.split('/')[1]?.replace('.html', '');
+const currentPath = path.split('/')[1]?.replace('.html', '');
 
-if (projectTitle) {
-  console.log(`Project title: ${projectTitle}`);
-} else {
-  console.error("Project title not found in the URL");
-}
-
-const currentProject = projects.find(project => project.id === projectTitle);
+const currentProject = projects.find(project => project.id === projectPath);
 
 const playerSection = `
   <div class="player-section">
