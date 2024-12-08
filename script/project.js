@@ -16,7 +16,7 @@ if (projectTitle) {
   console.error("Project title not found in the URL");
 }
 
-const currentProject = projects.find(project => toKebabCase(project.title) === projectTitle);
+const currentProject = projects.find(project => project.id === projectTitle);
 
 const playerSection = `
   <div class="player-section">
