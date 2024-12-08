@@ -203,6 +203,7 @@ p+p {
   padding-block: 200px;
   display: grid;
   gap: var(--sp-s);
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
