@@ -7,7 +7,7 @@ const root = document.getElementById('root');
 const homeRoot = document.getElementById('home-root');
 
 const path = window.location.pathname;
-const currentPath = path.split('/')[1]?.replace('.html', '');
+const projectPath = path.split('/')[1]?.replace('.html', '');
 
 const currentProject = projects.find(project => project.id === projectPath);
 
