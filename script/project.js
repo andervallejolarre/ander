@@ -5,7 +5,6 @@ const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
 
 const root = document.getElementById('root');
 const homeRoot = document.getElementById('home-root');
-console.log(homeRoot);
 
 const path = window.location.pathname;
 const currentPath = path.split('/')[1]?.replace('.html', '');
