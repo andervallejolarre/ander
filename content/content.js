@@ -80,19 +80,19 @@ const projects = [
     category: 'Instalaciones', 
     description: `
       <p>Obra artística producto de la exploración de conexión entre organismos digitales y materia orgánica, dando como resultado una planta digital que en conexión con el suelo que la sostiene detecta los cambios en la humedad para iniciar su actividad.</p>
-    <p>La planta entra en un ciclo de movimiento que persiste hasta que la humedad del suelo baja. Incorporando un juego lumínico en su estructura que acompaña el movimiento y envíos de señales OSC que la permiten conectar con otros organismos digitales. </p>
-    <p>Obra creada en colaboración con Andrea Galano y Rocío Gomez</p>
-<p>Presentada en la exhibición de arte y web3 “Estados Correlacionados” en Buenos Aires, Argentina (2024).</p>    
+      <p>La planta entra en un ciclo de movimiento que persiste hasta que la humedad del suelo baja. Incorporando un juego lumínico en su estructura que acompaña el movimiento y envíos de señales OSC que la permiten conectar con otros organismos digitales. </p>
+      <p>Obra creada en colaboración con Andrea Galano y Rocío Gomez</p>
+      <p>Presentada en la exhibición de arte y web3 “Estados Correlacionados” en Buenos Aires, Argentina (2024).</p>    
     `,
     links: {
       instagram: `https://www.instagram.com/p/C4izxUGozWT/?img_index=7`,
       instagram: `https://www.instagram.com/p/C6cXMfzv_dw/?img_index=5g`,
     },
     visuals: [
-      { vimeo: `985023216` },
-{ vimeo: `985773543` },
-      { image: 'Foto_retocada-13.jpeg' },
       { image: 'Foto_retocada-23.jpeg' },
+      { vimeo: `985023216` },
+      { vimeo: `985773543` },
+      { image: 'Foto_retocada-13.jpeg' },
     ],
   },
   { 
