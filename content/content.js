@@ -87,7 +87,7 @@ const projects = [
       { image: 'Foto_retocada-23.jpeg' },
       { vimeo: `985023216` },
       { vimeo: `985773543` },
-      { image: 'Foto_retocada-13.jpeg' },
+      //{ image: 'Foto_retocada-13.jpeg' },
     ],
   },
   { 
