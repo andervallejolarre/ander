@@ -14,10 +14,10 @@ const projects = [
       spotify: `https://open.spotify.com/artist/1E9QjpLJoDNyQYwHBur3fk?si=DAbTtrInSp21fTTp5fwXPg`,
     },
     visuals: [
-       { image: 'Spotify.jpg' },
+      { image: 'Spotify.jpg' },
+      { image: '003339--10--VK copy.JPG' },
       { vimeo: `985012270?h=e38d3b1611` },
       { vimeo: `985788851?h=bfded2fb90` },
-      //{ image: 'Layer 1-100.jpg' },
       //{ image: 'ander1.jpg' },
     ],
   },
