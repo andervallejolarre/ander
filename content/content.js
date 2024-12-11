@@ -16,8 +16,8 @@ const projects = [
     visuals: [
       { image: 'Spotify.jpg' },
       { image: '003339--10--VK copy.JPG' },
-      { vimeo: `985012270?h=e38d3b1611` },
-      { vimeo: `985788851?h=bfded2fb90` },
+      //{ vimeo: `985012270?h=e38d3b1611` },
+      //{ vimeo: `985788851?h=bfded2fb90` },
       //{ image: 'ander1.jpg' },
     ],
   },
