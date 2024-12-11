@@ -4,28 +4,21 @@ const projects = [
     title: 'ANDER',
     category: 'Producción',
     description: `
-      <p>
-        Proyecto personal destinado a la exploración de técnicas de producción y composición dentro de la música electrónica.
-      </p>
-      <p>
-        Este proyecto topa distintos géneros dentro del estilo para así abrir la gama de temas a poder ser analizados, experimentados e incorporados. 
-      </p>
-      <p>
-        Los temas publicados y su secuencia reflejan el crecimiento del artista, lo que va llamando su atención en el camino y algo de su curiosidad a nivel conceptual que busca reflejar en cada tema.
-      </p>
-      <p>
-        Ultimo trabajo publicado: Face It (Single; Independiente; 2024)
-      </p>
+      <p>Proyecto personal destinado a la exploración de técnicas de producción y composición dentro de la música electrónica.</p>
+      <p>Este proyecto topa distintos géneros dentro del estilo para así abrir la gama de temas a poder ser analizados, experimentados e incorporados. </p>
+      <p>Los temas publicados y su secuencia reflejan el crecimiento del artista, lo que va llamando su atención en el camino y algo de su curiosidad a nivel conceptual que busca reflejar en cada tema.</p>
+      <p>Ultimo trabajo publicado: Face It (Single; Independiente; 2024)</p>
     `,
     links: {
       instagram: `https://www.instagram.com/_ander.wav/`,
       spotify: `https://open.spotify.com/artist/1E9QjpLJoDNyQYwHBur3fk?si=DAbTtrInSp21fTTp5fwXPg`,
     },
     visuals: [
+       { image: 'Spotify.jpg' },
       { vimeo: `985012270?h=e38d3b1611` },
       { vimeo: `985788851?h=bfded2fb90` },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' },
+      { image: 'Layer 1-100.jpg' },
+      { image: 'ander1.jpg' },
     ],
   },
   {
