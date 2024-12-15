@@ -298,3 +298,40 @@ p+p {
   color: var(--c);
   cursor: default;
 }
+
+.bg-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  z-index: -1;
+  color: var(--c-3);
+}
+
+.bg-section svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+}
+
+@keyframes line {
+  100% {
+    stroke-dashoffset: 100%;
+  }
+}
+
+.line1 {
+  animation: line 36s infinite linear;
+}
+
+.line2 {
+  animation: line 22s infinite linear;
+}
+
+.line3 {
+  animation: line 30s infinite linear;
+}
