@@ -413,3 +413,9 @@ p+p {
   position: absolute;
   max-height: 1200px;
 }
+
+@media (max-width: 1024px) {
+  .bg-img {
+    max-height: 800px;
+  }
+}
