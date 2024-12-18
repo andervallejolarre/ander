@@ -1,9 +1,5 @@
-import {header} from './ui.js';
-
-const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
+import {bg, header} from './ui.js';
 
 const root = document.getElementById('root');
 
-
-
-root.innerHTML = header()
+root.innerHTML = header() + bg()

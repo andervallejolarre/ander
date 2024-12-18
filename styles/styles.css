@@ -308,30 +308,64 @@ p+p {
   display: grid;
   place-items: center;
   z-index: -1;
-  color: var(--c-3);
+  color: var(--c-2);
+  background: var(--bg);
 }
 
-.bg-section svg {
+.home-root .bg-section {
+  color: var(--c);
+}
+
+/* .bg-section svg {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
   display: block;
+} */
+
+.bg-img {
+  /* mix-blend-mode: lighten; */
+  z-index: 1000;
+  display: block;
+  height: 100%;
 }
 
+/* 
 @keyframes line {
   100% {
     stroke-dashoffset: 100%;
   }
 }
 
+@keyframes line2 {
+  100% {
+    stroke-dashoffset: -100%;
+  }
+}
+
 .line1 {
-  animation: line 36s infinite linear;
+  animation-duration: 118s;
 }
 
 .line2 {
-  animation: line 22s infinite linear;
+  animation-duration: 124s;
 }
 
 .line3 {
-  animation: line 30s infinite linear;
+  animation-duration: 130s;
 }
+
+.line1,
+.line2,
+.line3 {
+  will-change: stroke-dashoffset;
+  animation-name: line;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+.line1 {
+  animation-name: line2;
+} */

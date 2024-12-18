@@ -1,7 +1,5 @@
 import { aboutContent } from '../content/content.js';
-import { header } from './ui.js';
-
-const toKebabCase = (string) => string.toLowerCase().replace(/\s/g, '-');
+import { bg, header } from './ui.js';
 
 const root = document.getElementById('root');
 
@@ -21,4 +19,4 @@ const imageSection = `
   </div>
 `
 
-root.innerHTML = header() + imageSection + textSection
+root.innerHTML = header() + imageSection + textSection + bg();
