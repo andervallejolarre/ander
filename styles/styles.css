@@ -2,6 +2,102 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-45Mager.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-35RLeicht.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-35Leicht.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-65Halbfett.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-55RNormal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-45RMager.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-55Normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-65RHalbfett.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-85RSchwer.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-85Schwer.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-75RFett.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url('../assets/font/NBGrotesk-75Fett.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: hsl(0 0% 8%);
   --c: hsl(0 0% 93%);
@@ -47,11 +143,9 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--c);
-  font-family: nb grotesk, monospace;
+  font-family: 'NB Grotesk', monospace;
   font-size: var(--tx-s);
   line-height: 1.4;
-
-
 }
 
 h1 {
@@ -312,18 +406,6 @@ p+p {
   background: var(--bg);
 }
 
-.home-root .bg-section {
-  color: var(--c);
-}
-
-/* .bg-section svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  display: block;
-} */
-
 .bg-img {
   mix-blend-mode: lighten;
   z-index: 1000;
@@ -331,42 +413,3 @@ p+p {
   position: absolute;
   max-height: 1200px;
 }
-
-/* 
-@keyframes line {
-  100% {
-    stroke-dashoffset: 100%;
-  }
-}
-
-@keyframes line2 {
-  100% {
-    stroke-dashoffset: -100%;
-  }
-}
-
-.line1 {
-  animation-duration: 118s;
-}
-
-.line2 {
-  animation-duration: 124s;
-}
-
-.line3 {
-  animation-duration: 130s;
-}
-
-.line1,
-.line2,
-.line3 {
-  will-change: stroke-dashoffset;
-  animation-name: line;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-play-state: paused;
-}
-
-.line1 {
-  animation-name: line2;
-} */
