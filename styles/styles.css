@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-@font-face {
+/* @font-face {
   font-family: 'NB Grotesk';
   src: url('../assets/font/NBGrotesk-45Mager.woff2') format('woff2');
   font-weight: 300;
@@ -29,7 +25,7 @@
 @font-face {
   font-family: 'NB Grotesk';
   src: url('../assets/font/NBGrotesk-65Halbfett.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -48,7 +44,7 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: 'NB Grotesk';
@@ -61,12 +57,12 @@
 @font-face {
   font-family: 'NB Grotesk';
   src: url('../assets/font/NBGrotesk-65RHalbfett.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'NB Grotesk';
   src: url('../assets/font/NBGrotesk-85RSchwer.woff2') format('woff2');
   font-weight: 900;
@@ -96,7 +92,7 @@
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 :root {
   --bg: hsl(0 0% 8%);
