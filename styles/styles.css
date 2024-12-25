@@ -249,8 +249,8 @@ p+p {
 }
 
 @media (max-width: 768px) {
-  .header {
-    height: 50vh;
+  .menu {
+    padding-top: var(--page-padding);
   }
 }
 
