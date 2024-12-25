@@ -328,7 +328,7 @@ p+p {
 }
 
 @media (max-width: 1024px) {
-  .header {
+  .description-section {
     padding-right: unset;
   }
 }
