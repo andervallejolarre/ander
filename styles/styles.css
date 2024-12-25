@@ -188,7 +188,6 @@ p+p {
   gap: var(--sp-xl);
   grid-template-columns: 2fr 1.5fr 1fr;
   height: 100%;
-  padding-inline: var(--page-padding);
   overflow: hidden;
 }
 
@@ -237,6 +236,7 @@ p+p {
 
 .header {
   padding-block: var(--page-padding);
+  padding-left: var(--page-padding);
   gap: var(--page-padding);
   max-height: 100vh;
   display: grid;
@@ -321,6 +321,7 @@ p+p {
   padding-block: var(--page-padding);
   align-content: end;
   overflow: auto;
+  padding-right: var(--page-padding);
 }
 
 .links-section {
