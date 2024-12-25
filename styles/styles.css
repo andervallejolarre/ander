@@ -254,12 +254,22 @@ p+p {
     "about-link-section";
 }
 
+@media (max-width: 768px) {
+  .header {
+    height: 50vh;
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
     padding-left: unset;
     grid-template-areas:
       "main-title about-link-section"
       "menu menu";
+  }
+
+  .about-link-section {
+    align-content: start;
   }
 }
 
