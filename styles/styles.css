@@ -119,6 +119,12 @@
   --page-padding: var(--sp-xl);
 }
 
+@media (max-width: 768px) {
+  :root {
+    --page-padding: var(--sp-l);
+  }
+}
+
 *,
 :after,
 :before {
