@@ -269,6 +269,15 @@ p+p {
   }
 }
 
+@media (max-width: 768px) {
+  .home-root .header {
+    height: 100vh;
+  }
+  .home-root .menu {
+    align-self: start;
+  }
+}
+
 .main-title {
   margin: 0;
   grid-area: main-title;
