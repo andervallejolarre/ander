@@ -193,7 +193,7 @@ p+p {
 }
 
 .about-root {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1.5fr 2fr;
 }
 
 @media (max-width: 1024px) {
