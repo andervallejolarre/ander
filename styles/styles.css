@@ -186,7 +186,7 @@ p+p {
 .root {
   display: grid;
   gap: var(--sp-xl);
-  grid-template-columns: 1fr 1fr 1.5fr 1fr;
+  grid-template-columns: 2fr 1.5fr 1fr;
   height: 100%;
   padding-inline: var(--page-padding);
   overflow: hidden;
