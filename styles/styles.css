@@ -267,10 +267,6 @@ p+p {
       "main-title about-link-section"
       "menu menu";
   }
-
-  .about-link-section {
-    align-content: start;
-  }
 }
 
 .main-title {
@@ -295,6 +291,12 @@ p+p {
   align-content: end;
   color: var(--c-2);
   grid-area: about-link-section;
+}
+
+@media (max-width: 768px) {
+  .about-link-section {
+    align-content: start;
+  }
 }
 
 @media (max-width: 1024px) {
