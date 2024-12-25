@@ -219,18 +219,20 @@ p+p {
 .about-text-section {
   align-self: end;
   padding-block: var(--page-padding);
+  padding-right: var(--page-padding);
   overflow: auto;
   max-height: calc(100vh - var(--page-padding));
 }
 
 @media (max-width: 1024px) {
   .about-image-section {
-    padding: 0;
+    padding: unset;
   }
 
   .about-text-section {
     overflow: unset;
     max-height: unset;
+    padding: unset;
   }
 }
 
