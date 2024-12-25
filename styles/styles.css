@@ -249,7 +249,7 @@ p+p {
 }
 
 @media (max-width: 768px) {
-  .menu {
+  .root:not(.home-root) .menu {
     padding-top: var(--page-padding);
   }
 }
