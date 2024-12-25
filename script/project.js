@@ -69,7 +69,7 @@ const descriptionSection = `
   </div>
 `
 
-root.innerHTML = header() + playerSection + imagesSection + descriptionSection + bg()
+root.innerHTML = header() + imagesSection + descriptionSection + bg()
 
 if(currentProject) {
   document.title = currentProject.title;
