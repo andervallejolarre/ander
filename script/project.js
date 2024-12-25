@@ -33,7 +33,7 @@ const imagesSection = `
           return `<img src="../content/images/${visual.image}">`
         } else if(visual.vimeo) {
           return `
-            <div style="position: relative; padding-top: 56.25%;">
+            <div style="position: relative; padding-top: 56.25%; overflow: hidden;">
               <iframe 
                 title="vimeo-player" 
                 src="https://player.vimeo.com/video/${visual.vimeo}?controls=1&title=0&byline=0&portrait=0" 
@@ -41,10 +41,10 @@ const imagesSection = `
                 allowfullscreen
                 style="
                   position: absolute;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
+                  top: -2px;
+                  left: -2px;
+                  width: calc(100% + 4px);
+                  height: calc(100% + 4px);
                 "
               ></iframe>
             </div>
