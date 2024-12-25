@@ -232,7 +232,7 @@ p+p {
   .about-text-section {
     overflow: unset;
     max-height: unset;
-    padding: var(--page-padding) unset;
+    padding: var(--page-padding) 0;
   }
 }
 
