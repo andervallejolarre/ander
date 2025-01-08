@@ -118,8 +118,14 @@ const projects = [
     title: `When... Plants... Sing`, 
     category: 'Comunicación', 
     description: `
-      <p>This is a description of project</p>
+      <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
+      <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
+      <p>Como objetivo, este proyecto pretende poner a disposición de todos el conocimiento adquirido en el curso de esta investigación es por esto que, desde su creacíon en 2022 se han llevado a cabo una serie de actividades interactivas, experiencias inmersivas y actuaciones músicales destinadas a esta labor.</p>
     `,
+    links: {
+      instagram: `https://www.instagram.com/when.plants.sing/`,
+      soundcloud: `https://soundcloud.com/anderground/sets/when-plants-sing?si=e2387011c2ce47729ba9a40bd0d6d180&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
+    },
     visuals: [
       { image: 'image3.jpg' },
       { image: 'image2.jpg' },
