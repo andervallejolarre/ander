@@ -127,7 +127,7 @@ const projects = [
       soundcloud: `https://soundcloud.com/anderground/sets/when-plants-sing?si=e2387011c2ce47729ba9a40bd0d6d180&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
     },
     visuals: [
-      { image: 'W... P... S (Final).jpg' },
+      //{ image: 'W... P... S (Final).jpg' },
       { image: 'IMG_1047.JPG' },
     ],
   },
