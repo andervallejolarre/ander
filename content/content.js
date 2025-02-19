@@ -39,6 +39,21 @@ const projects = [
     ],
   },
   {
+    id: 'pozos-del-cielo',
+    title: 'Pozos del Cielo (Llum Barcelona 2025)',
+    category: 'Instalaciones',
+    description: `
+      <p>This is a description of project</p>
+      <p>This is a description of project</p>
+      <p>This is a description of project</p>
+      `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
+    ],
+  },
+  {
     id: `simbioc3no`,
     title: `Simbioc3no`,
     category: `Instalaciones`,
