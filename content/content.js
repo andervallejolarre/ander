@@ -52,12 +52,18 @@ const projects = [
       { image: '2_Pozos.jpg' },
       { image: '3_Pozos.JPG' },
       { image: '4_Pozos.JPG' },
-      { image: '5_Pozos.JPG' },
+      { image: '5_Pozos.jpg' },
       { image: '6_Pozos.JPG' },
-      { image: '7_Pozos.jpg' },
+      { image: '7_Pozos.JPG' },
       { image: '8_Pozos.JPG' },
       { image: '9_Pozos.JPG' },
-      { image: '10_Pozos.JPG' }
+      { image: '10_Pozos.JPG' },
+      { image: '11_Pozos.JPG' },
+      { image: '12_Pozos.JPG' },
+      { image: '13_Pozos.jpg' },
+      { image: '14_Pozos.jpg' },
+      { image: '15_Pozos.JPG' },
+      { image: '16_Pozos.JPG' }
     ],
   },
   {
