@@ -62,7 +62,7 @@ const projects = [
       //{ image: '12_Pozos.JPG' },
       { image: '13_Pozos.jpg' },
       { image: '14_Pozos.jpg' },
-      { image: '15_Pozos.JPG' },
+      //{ image: '15_Pozos.JPG' },
       { image: '16_Pozos.JPG' }
     ],
   },
