@@ -48,9 +48,16 @@ const projects = [
       <p>This is a description of project</p>
       `,
     visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
+      { image: '1_Pozos.jpg' },
+      { image: '2_Pozos.jpg' },
+      { image: '3_Pozos.JPG' },
+      { image: '4_Pozos.JPG' },
+      { image: '5_Pozos.JPG' },
+      { image: '6_Pozos.JPG' },
+      { image: '7_Pozos.jpg' },
+      { image: '8_Pozos.JPG' },
+      { image: '9_Pozos.JPG' },
+      { image: '10_Pozos.JPG' }
     ],
   },
   {
