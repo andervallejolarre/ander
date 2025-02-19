@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 'pozos-del-cielo',
-    title: 'Pozos del Cielo (Llum Barcelona 2025)',
+    title: 'Pozos del Cielo (Llum 2025)',
     category: 'Instalaciones',
     description: `
       <p>This is a description of project</p>
