@@ -2,7 +2,7 @@ const projects = [
   {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
-    category: 'Instalaciones',
+    category: 'Instalaciones y obras artísticas',
     description: `
       <p>This is a description of project</p>
       <p>This is a description of project</p>
@@ -30,7 +30,7 @@ const projects = [
   { 
     id: `la-loba-capitulo-3`, 
     title: `La Loba (Capítulo 3)`, 
-    category: 'Instalaciones', 
+    category: 'Instalaciones y obras artísticas', 
     description: `
       <p>This is a description of project</p>
     `,
@@ -58,7 +58,7 @@ const projects = [
   {
     id: `simbioc3no`,
     title: `Simbioc3no`,
-    category: `Instalaciones`,
+    category: `Instalaciones y obras artísticas`,
     description: `
       <p>La instalación artística inmersiva “Simbioc3no: Temporalidades ecoicas y memorias futuras”  pretende retratar un escenario futuro de la naturaleza donde el ser humano ya no es parte de ella pero la huella de nuestra existencia si.</p>
       <p>Luego de una sexta extinción masiva y con unas condiciones planetarias que impiden el funcionamiento de los ecosistemas tal cual como los conocemos hoy en día, se requieren de nuevos sistemas de colaboración y comunicación intraespecie para retomar el balance natural.</p>
@@ -76,7 +76,7 @@ const projects = [
   { 
     id: `planta-kinetica`, 
     title: `Planta Kinética`, 
-    category: 'Instalaciones', 
+    category: 'Instalaciones y obras artísticas', 
     description: `
       <p>Obra artística producto de la exploración de conexión entre organismos digitales y materia orgánica, dando como resultado una planta digital que en conexión con el suelo que la sostiene detecta los cambios en la humedad para iniciar su actividad.</p>
       <p>La planta entra en un ciclo de movimiento que persiste hasta que la humedad del suelo baja. Incorporando un juego lumínico en su estructura que acompaña el movimiento y envíos de señales OSC que la permiten conectar con otros organismos digitales. </p>
@@ -97,7 +97,7 @@ const projects = [
   { 
     id: `fusión-botánica`, 
     title: `Fusión Botánica`, 
-    category: 'Instalaciones', 
+    category: 'Instalaciones y obras artísticas', 
     description: `
       <p>This is a description of project</p>
     `,
@@ -110,7 +110,7 @@ const projects = [
   { 
     id: `nou-space`, 
     title: `Nou Space`, 
-    category: 'Instalaciones', 
+    category: 'Instalaciones y obras artísticas', 
     description: `
       <p>Instalación sonora cuadrafónica creada bajo el concepto “Diálogos del Siglo XXI: Del físico al digital” para ambientar la primera exposición de Nou Lab.</p>
       <p>Secuencias aleatorias digitales controlando sintetizadores analógicos y grabaciones de campo procesadas y modificadas por computadoras. Sonidos distribuidos por el espacio que cambiarían el caracter contemplativo de la exposición en una experiencia inmersiva.</p>
@@ -133,7 +133,7 @@ const projects = [
   { 
     id: `when-plants-sing`, 
     title: `When... Plants... Sing`, 
-    category: 'Investigación', 
+    category: 'Investigación artística', 
     description: `
       <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
       <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
@@ -151,7 +151,7 @@ const projects = [
    { 
     id: `radio-y-curaduría-sonora`, 
     title: `Radio Show (Dublab.es)`, 
-    category: 'Investigación', 
+    category: 'Investigación artística', 
     description: `
       <p>This is a description of project</p>
     `,
@@ -164,7 +164,7 @@ const projects = [
   { 
     id: `holobiont-spell`, 
     title: `A Holobiont Spell`, 
-    category: 'Producción', 
+    category: 'Producción musical', 
     description: `
       <p>This is a description of project</p>
     `,
@@ -177,7 +177,7 @@ const projects = [
   {
     id: 'ander',
     title: 'ANDER',
-    category: 'Producción',
+    category: 'Producción musical',
     description: `
       <p>Proyecto personal destinado a la exploración de técnicas de producción y composición dentro de la música electrónica.</p>
       <p>Este proyecto topa distintos géneros dentro del estilo para así abrir la gama de temas a poder ser analizados, experimentados e incorporados. </p>
@@ -201,7 +201,7 @@ const projects = [
   {
     id: 'proyectos-externos',
     title: 'Proyectos Externos',
-    category: 'Producción',
+    category: 'Producción musical',
     description: `
       <p>Como productor musical ha sido importante la participación en proyectos externos que involucrara el trabajo directo con otros artistas, bandas, productores y equipos de trabajo.</p>
       <p>Participando en temas musicales como la composición y arreglos, de ingeniería de sonido como grabación, mezcla y sound design, además de labores logísticos y organizacionales a la hora de trabajar con otros ingenieros, agentes y distribuidoras.</p>
