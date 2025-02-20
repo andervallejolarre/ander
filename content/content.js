@@ -59,19 +59,6 @@ const projects = [
     ],
   },
   { 
-    id: `fusión-botánica`, 
-    title: `Fusión Botánica`, 
-    category: 'Instalaciones', 
-    description: `
-      <p>This is a description of project</p>
-    `,
-    visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
-    ],
-  },
-  { 
     id: `planta-kinetica`, 
     title: `Planta Kinética`, 
     category: 'Instalaciones', 
@@ -90,6 +77,19 @@ const projects = [
       { vimeo: `985023216` },
       { vimeo: `985773543` },
       //{ image: 'Foto_retocada-13.jpeg' },
+    ],
+  },
+  { 
+    id: `fusión-botánica`, 
+    title: `Fusión Botánica`, 
+    category: 'Instalaciones', 
+    description: `
+      <p>This is a description of project</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
     ],
   },
   { 
