@@ -1,69 +1,4 @@
 const projects = [
-  { 
-    id: `la-loba-capítulo-3`, 
-    title: `La Loba (Capítulo 3)`, 
-    category: 'Instalaciones', 
-    description: `
-      <p>This is a description of project</p>
-    `,
-    visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
-    ],
-  },
-  { 
-    id: `holobiont-spell`, 
-    title: `A Holobiont Spell`, 
-    category: 'Producción', 
-    description: `
-      <p>This is a description of project</p>
-    `,
-    visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
-    ],
-  },
-  {
-    id: 'ander',
-    title: 'ANDER',
-    category: 'Producción',
-    description: `
-      <p>Proyecto personal destinado a la exploración de técnicas de producción y composición dentro de la música electrónica.</p>
-      <p>Este proyecto topa distintos géneros dentro del estilo para así abrir la gama de temas a poder ser analizados, experimentados e incorporados. </p>
-      <p>Los temas publicados y su secuencia reflejan el crecimiento del artista, lo que va llamando su atención en el camino y algo de su curiosidad a nivel conceptual que busca reflejar en cada tema.</p>
-      <p>Ultimo trabajo publicado: Face It (Single; Independiente; 2024)</p>
-    `,
-    links: {
-      instagram: `https://www.instagram.com/_ander.wav/`,
-      spotify: `https://open.spotify.com/artist/1E9QjpLJoDNyQYwHBur3fk?si=DAbTtrInSp21fTTp5fwXPg`,
-    },
-    visuals: [
-      { image: 'Spotify.jpg' },
-      { image: '003337--32--VK.JPG' },
-      { image: '003339--23--VK.JPG' },
-      { image: '003337--41--VK.JPG' },
-      { vimeo: `985012270?h=e38d3b1611` },
-      { vimeo: `985788851?h=bfded2fb90` },
-      //{ image: 'ander1.jpg' },
-    ],
-  },
-  {
-    id: 'proyectos-externos',
-    title: 'Proyectos Externos',
-    category: 'Producción',
-    description: `
-      <p>Como productor musical ha sido importante la participación en proyectos externos que involucrara el trabajo directo con otros artistas, bandas, productores y equipos de trabajo.</p>
-      <p>Participando en temas musicales como la composición y arreglos, de ingeniería de sonido como grabación, mezcla y sound design, además de labores logísticos y organizacionales a la hora de trabajar con otros ingenieros, agentes y distribuidoras.</p>
-      <p>Ultimo trabajo publicado:  Midaz - Piscis (EP; Independiente; 2024) Trabajo hecho: arreglos, edición, sound design y mezcla.</p>
-    `,
-    visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
-    ],
-  },
   {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
@@ -90,6 +25,19 @@ const projects = [
       //{ image: '15_Pozos.JPG' },
       { image: '16_Pozos.JPG' },
       { image: '14_Pozos.jpg' }
+    ],
+  },
+  { 
+    id: `la-loba-capítulo-3`, 
+    title: `La Loba (Capítulo 3)`, 
+    category: 'Instalaciones', 
+    description: `
+      <p>This is a description of project</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
     ],
   },
   {
@@ -185,7 +133,7 @@ const projects = [
       { image: 'IMG_1047.JPG' },
     ],
   },
-  { 
+   { 
     id: `radio-y-curaduría-sonora`, 
     title: `Radio y curaduría sonora`, 
     category: 'Comunicación', 
@@ -198,7 +146,58 @@ const projects = [
       { image: 'image.jpg' }
     ],
   },
-  
+  { 
+    id: `holobiont-spell`, 
+    title: `A Holobiont Spell`, 
+    category: 'Producción', 
+    description: `
+      <p>This is a description of project</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
+    ],
+  },
+  {
+    id: 'ander',
+    title: 'ANDER',
+    category: 'Producción',
+    description: `
+      <p>Proyecto personal destinado a la exploración de técnicas de producción y composición dentro de la música electrónica.</p>
+      <p>Este proyecto topa distintos géneros dentro del estilo para así abrir la gama de temas a poder ser analizados, experimentados e incorporados. </p>
+      <p>Los temas publicados y su secuencia reflejan el crecimiento del artista, lo que va llamando su atención en el camino y algo de su curiosidad a nivel conceptual que busca reflejar en cada tema.</p>
+      <p>Ultimo trabajo publicado: Face It (Single; Independiente; 2024)</p>
+    `,
+    links: {
+      instagram: `https://www.instagram.com/_ander.wav/`,
+      spotify: `https://open.spotify.com/artist/1E9QjpLJoDNyQYwHBur3fk?si=DAbTtrInSp21fTTp5fwXPg`,
+    },
+    visuals: [
+      { image: 'Spotify.jpg' },
+      { image: '003337--32--VK.JPG' },
+      { image: '003339--23--VK.JPG' },
+      { image: '003337--41--VK.JPG' },
+      { vimeo: `985012270?h=e38d3b1611` },
+      { vimeo: `985788851?h=bfded2fb90` },
+      //{ image: 'ander1.jpg' },
+    ],
+  },
+  {
+    id: 'proyectos-externos',
+    title: 'Proyectos Externos',
+    category: 'Producción',
+    description: `
+      <p>Como productor musical ha sido importante la participación en proyectos externos que involucrara el trabajo directo con otros artistas, bandas, productores y equipos de trabajo.</p>
+      <p>Participando en temas musicales como la composición y arreglos, de ingeniería de sonido como grabación, mezcla y sound design, además de labores logísticos y organizacionales a la hora de trabajar con otros ingenieros, agentes y distribuidoras.</p>
+      <p>Ultimo trabajo publicado:  Midaz - Piscis (EP; Independiente; 2024) Trabajo hecho: arreglos, edición, sound design y mezcla.</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
+    ],
+  },
 ]
 
 const aboutContent = {
