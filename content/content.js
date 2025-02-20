@@ -44,15 +44,15 @@ const projects = [
       { image: 'Loba_7.1.jpg' },
       { image: 'Loba_8.jpg' },
       { image: 'Loba_9.jpg' },
-      { image: 'Loba_10.JPG' },
+      //{ image: 'Loba_10.JPG' },
       { image: 'Loba_11.jpg' },
-      { image: 'Loba_12.JPG' },
-      { image: 'Loba_13.JPG' },
-      { image: 'Loba_14.JPG' },
+      //{ image: 'Loba_12.JPG' },
+      //{ image: 'Loba_13.JPG' },
+      //{ image: 'Loba_14.JPG' },
       { image: 'Loba_15.JPG' },
       { image: 'Loba_16.JPG' },
       { image: 'Loba_17.JPG' },
-      { image: 'Loba_18.JPG' }
+      //{ image: 'Loba_18.JPG' }
     ],
   },
   {
