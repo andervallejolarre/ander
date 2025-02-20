@@ -35,9 +35,24 @@ const projects = [
       <p>This is a description of project</p>
     `,
     visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
+      { image: 'Loba_1.jpg' },
+      { image: 'Loba_2.JPG' },
+      { image: 'Loba_3.JPG' },
+      { image: 'Loba_4.JPG' },
+      { image: 'Loba_5.JPG' },
+      { image: 'Loba_6.JPG' },
+      { image: 'Loba_7.jpg' },
+      { image: 'Loba_8.jpg' },
+      { image: 'Loba_9.jpg' },
+      { image: 'Loba_10.JPG' },
+      { image: 'Loba_11.jpg' },
+      { image: 'Loba_12.JPG' },
+      { image: 'Loba_13.JPG' },
+      { image: 'Loba_14.JPG' },
+      { image: 'Loba_15.JPG' },
+      { image: 'Loba_16.JPG' },
+      { image: 'Loba_17.JPG' },
+      { image: 'Loba_18.JPG' }
     ],
   },
   {
