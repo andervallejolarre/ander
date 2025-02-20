@@ -1,7 +1,7 @@
 const projects = [
   { 
-    id: `fusión-botánica`, 
-    title: `Fusión Botánica`, 
+    id: `la-loba-capítulo-3`, 
+    title: `La Loba (Capítulo 3)`, 
     category: 'Instalaciones', 
     description: `
       <p>This is a description of project</p>
@@ -13,8 +13,8 @@ const projects = [
     ],
   },
   { 
-    id: `fusión-botánica`, 
-    title: `Fusión Botánica`, 
+    id: `holobiont-spell`, 
+    title: `A Holobiont Spell`, 
     category: 'Producción', 
     description: `
       <p>This is a description of project</p>
