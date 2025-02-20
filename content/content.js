@@ -133,7 +133,7 @@ const projects = [
   { 
     id: `when-plants-sing`, 
     title: `When... Plants... Sing`, 
-    category: 'Comunicación', 
+    category: 'Investigación', 
     description: `
       <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
       <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
@@ -150,8 +150,8 @@ const projects = [
   },
    { 
     id: `radio-y-curaduría-sonora`, 
-    title: `Radio y curaduría sonora`, 
-    category: 'Comunicación', 
+    title: `Radio Show (Dublab.es)`, 
+    category: 'Investigación', 
     description: `
       <p>This is a description of project</p>
     `,
