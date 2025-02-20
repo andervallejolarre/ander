@@ -21,9 +21,9 @@ const projects = [
       { image: '10_Pozos.JPG' },
       { image: '11_Pozos.JPG' },
       //{ image: '12_Pozos.JPG' },
-      { image: '13_Pozos.jpg' },
+      //{ image: '13_Pozos.jpg' },
       //{ image: '15_Pozos.JPG' },
-      { image: '16_Pozos.JPG' },
+      { image: '16_Pozos.jpg' },
       { image: '14_Pozos.jpg' }
     ],
   },
