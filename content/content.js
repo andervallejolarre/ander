@@ -1,4 +1,30 @@
 const projects = [
+  { 
+    id: `fusión-botánica`, 
+    title: `Fusión Botánica`, 
+    category: 'Instalaciones', 
+    description: `
+      <p>This is a description of project</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
+    ],
+  },
+  { 
+    id: `fusión-botánica`, 
+    title: `Fusión Botánica`, 
+    category: 'Producción', 
+    description: `
+      <p>This is a description of project</p>
+    `,
+    visuals: [
+      { image: 'image3.jpg' },
+      { image: 'image2.jpg' },
+      { image: 'image.jpg' }
+    ],
+  },
   {
     id: 'ander',
     title: 'ANDER',
