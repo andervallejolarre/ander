@@ -28,7 +28,7 @@ const projects = [
     ],
   },
   { 
-    id: `la-loba-capítulo-3`, 
+    id: `la-loba-capitulo-3`, 
     title: `La Loba (Capítulo 3)`, 
     category: 'Instalaciones', 
     description: `
