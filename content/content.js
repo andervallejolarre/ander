@@ -41,7 +41,7 @@ const projects = [
       { image: 'Loba_4.JPG' },
       { image: 'Loba_5.JPG' },
       { image: 'Loba_6.JPG' },
-      { image: 'Loba_7.jpg' },
+      { image: 'Loba_7.1.jpg' },
       { image: 'Loba_8.jpg' },
       { image: 'Loba_9.jpg' },
       { image: 'Loba_10.JPG' },
