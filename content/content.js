@@ -200,7 +200,7 @@ const projects = [
   },
   {
     id: 'proyectos-externos',
-    title: 'Proyectos Externos',
+    title: 'Otras producciones',
     category: 'Producción musical',
     description: `
       <p>Como productor musical ha sido importante la participación en proyectos externos que involucrara el trabajo directo con otros artistas, bandas, productores y equipos de trabajo.</p>
