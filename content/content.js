@@ -22,8 +22,8 @@ const projects = [
       { image: '11_Pozos.JPG' },
       //{ image: '12_Pozos.JPG' },
       //{ image: '13_Pozos.jpg' },
-      //{ image: '15_Pozos.JPG' },
-      { image: '16_Pozos.jpg' },
+      { image: '15_Pozos.JPG' },
+      { image: '16_Pozos.JPG' },
       { image: '14_Pozos.jpg' }
     ],
   },
@@ -49,8 +49,8 @@ const projects = [
       //{ image: 'Loba_12.JPG' },
       //{ image: 'Loba_13.JPG' },
       //{ image: 'Loba_14.JPG' },
-      { image: 'Loba_15.JPG' },
-      { image: 'Loba_16.JPG' },
+      //{ image: 'Loba_15.JPG' },
+      { image: 'Loba_16.jpg' },
       { image: 'Loba_17.JPG' },
       //{ image: 'Loba_18.JPG' }
     ],
