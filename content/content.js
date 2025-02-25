@@ -68,8 +68,13 @@ const projects = [
     `,
     visuals: [
       { vimeo: `985765109` },
+      { image: `Simbiocen_Planos.jpg` },
+      { image: `Simbioceno_Bioplasticos.jpg` },
       { image: `Foto_retocada-48.jpeg` },
       { image: `Foto_retocada-51.jpeg` },
+      { image: `Simbioceno_Fabula_2.jpg` },
+      { image: `Simbioceno_Fabula_1.jpg` },
+      { image: `Simbioceno_Fabula especulativa.jpg.` },
       { image: `Simbioc3no.jpeg` },
     ],
   },
