@@ -168,11 +168,16 @@ const projects = [
   },
   { 
     id: `holobiont-spell`, 
-    title: `A Holobiont Spell`, 
+    title: `A Holobiont Spell (Sound Design)`, 
     category: 'Producción musical', 
     description: `
-      <p>This is a description of project</p>
+      <p>Assamblage(s): A Holobiont Spell es el trabajo de Andrea Galano Toro, desarrollado y presentado en la AiR Residency de Praga 2024, para la que participé sonorizando la obra e instalación final. Esta exploración resultó en un hechizo musicalizado y sonorizado que habitaría la galería de Jedna Dva Tri durante la exhibición Messages at the Crossroads (30.07.2024 - 06.09.2024).</p>
+      <p>El hechizo compuesto de cuatro partes (The Gut, The Shelter, The Stranger y The Debris) habla sobre la transformación y la relación del ser humano con su cuerpo, la vida que habita este cuerpo y los ecosistemas que en este se crean. Cada parte de este hechizo siendo tan característico y simbólico, fue representado de manera sonora mediante manipulación de samples, recreación de espacios, diseño de sonidos específicos que representaran aspectos únicos de cada escenario y la musicalización como parte del discurso/narrativa.</p>
+      <p>Para la realización de este trabajo fueron esenciales aspectos fundamentales de la obra de Andrea como los símbolos creados para cada parte, su visón y relación con ellas y lo más importante, su voz que narra el hechizo y que es la que nos conduce por esta experiencia de cambio e integración sonora.</p>
     `,
+    links: {
+      soundcloud: `https://soundcloud.com/andrea-galano/assemblages-a-holobiont-spell2024`,
+    },
     visuals: [
       { image: 'image3.jpg' },
       { image: 'image2.jpg' },
