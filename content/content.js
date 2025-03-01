@@ -129,7 +129,7 @@ const projects = [
       { image: 'Fusion_Botanica_8.jpg' },
       { image: 'Fusion_Botanica_9.jpg' },
       { image: 'Fusion_Botanica_10.jpg' },
-      { image: 'Fusion_Botanica_11.jpg' },
+      //{ image: 'Fusion_Botanica_11.jpg' },
       { image: 'Fusion_Botanica_Cierre.jpg' }
     ],
   },
