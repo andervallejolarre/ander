@@ -240,8 +240,8 @@ const projects = [
       <p>Ultimo trabajo publicado:  Midaz - Piscis (EP; Independiente; 2024) Trabajo hecho: arreglos, edición, sound design y mezcla.</p>
     `,
     visuals: [
-      { image: 'Monblume.jpg' },
-      { image: 'Midaz_Piscis.jpg' }
+       { image: 'Midaz_Piscis.jpg' },
+      { image: 'Monblume.jpg' }
     ],
   },
 ]
