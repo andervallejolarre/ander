@@ -109,7 +109,7 @@ const projects = [
     category: 'Instalaciones y obras artísticas', 
     description: `
       <p>Instalación audiovisual que pretende transportar a sus invitados a diferentes entornos naturales del planeta tierra mediante la disposición de plantas y sonidos característicos de cada lugar. </p>
-      <p>Teniendo especial importancia la ambientación sonora, se busca integrar a las plantas en ella y que influyan en el comportamiento estas. Usando técnicas de biofeedback, las plantas son habilitadas a tomar control de diferentes elementos sonoros y lumínicos que pasen a formar parte de este nuevo entorno.</p>
+      <p>Teniendo especial importancia la ambientación sonora, se busca integrar a las plantas en ella y que influyan en el comportamiento de estas. Usando técnicas de biofeedback, las plantas son habilitadas a tomar control de diferentes elementos sonoros y lumínicos que forman parte de este nuevo entorno.</p>
       <p>Una obra creada en colaboración con Will Coghlan y Santiago Terigi, y cuya dirección creativa invita a conocer más sobre las condiciones climáticas, geobotánica y aspectos etnobotánicos de cada lugar que se recrea, abriendo paso a temas de reflexión, análisis crítico y forward thinking.</p>
       <p>Presentada en el Festival LAVS: Laboratori d’Art Visual i Sonor de Mataró, Catalunya (2023) en una experiencia continua de 10 días.</p>
     `,
