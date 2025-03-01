@@ -181,6 +181,10 @@ const projects = [
     description: `
       <p>This is a description of project</p>
     `,
+      links: {
+      dublab: `https://www.dublab.es`,
+      mixcloud: `https://www.mixcloud.com/dublabes/when-plants-sing-29112024-w-ander-vallejo/`,
+    },
     visuals: [
       { image: 'Dublab_Foto_2.jpg' },
       { image: 'Dublab_Web.jpg' },
