@@ -182,9 +182,8 @@ const projects = [
       <p>This is a description of project</p>
     `,
     visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
+      { image: 'Dublab_Web.jpg' },
+      { image: 'Dublab_E02.jpg' }
     ],
   },
   { 
