@@ -175,7 +175,7 @@ const projects = [
     ],
   },
    { 
-    id: `radio-y-curaduría-sonora`, 
+    id: `radio-show`, 
     title: `Radio Show (Dublab.es)`, 
     category: 'Investigación artística', 
     description: `
