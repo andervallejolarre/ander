@@ -184,8 +184,8 @@ const projects = [
     },
     visuals: [
       { image: 'Holobionte_Hechizo.jpg' },
-      { image: 'Holobionte_Instalación.JPG' },
-      { image: 'Holobionte_Instalación_2.JPG' },
+      { image: 'Holobionte_Instalacion.JPG' },
+      { image: 'Holobionte_Instalacion_2.JPG' },
       { image: 'Holobionte_Creditos.jpg' },
     ],
   },
