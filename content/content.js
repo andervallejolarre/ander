@@ -188,7 +188,7 @@ const projects = [
     visuals: [
       { image: 'Dublab_E01.jpg' },
       { image: 'Dublab_Foto_2.jpg' },
-      { image: 'Dublab_Web.jpg' },
+      //{ image: 'Dublab_Web.jpg' },
       { image: 'Dublab_Foto_1.jpg' },
     ],
   },
