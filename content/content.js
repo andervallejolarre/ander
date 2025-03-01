@@ -183,7 +183,7 @@ const projects = [
     `,
     visuals: [
       { image: 'Dublab_Web.jpg' },
-      { image: 'Dublab_E02.jpg' }
+      { image: 'Dublab_E03.jpg' }
     ],
   },
   { 
