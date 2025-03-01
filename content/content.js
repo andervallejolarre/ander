@@ -183,9 +183,10 @@ const projects = [
       soundcloud: `https://soundcloud.com/andrea-galano/assemblages-a-holobiont-spell2024`,
     },
     visuals: [
-      { image: 'image3.jpg' },
-      { image: 'image2.jpg' },
-      { image: 'image.jpg' }
+      { image: 'Holobionte_Hechizo.jpg' },
+      { image: 'Holobionte_Instalación.JPG' },
+      { image: 'Holobionte_Instalación_2.JPG' }
+      { image: 'Holobionte_Creditos.jpg' },
     ],
   },
   {
