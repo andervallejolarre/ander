@@ -239,6 +239,11 @@ const projects = [
       <p>Participando en temas musicales como la composición y arreglos, de ingeniería de sonido como grabación, mezcla y sound design, además de labores logísticos y organizacionales a la hora de trabajar con otros ingenieros, agentes y distribuidoras.</p>
       <p>Ultimo trabajo publicado:  Midaz - Piscis (EP; Independiente; 2024) Trabajo hecho: arreglos, edición, sound design y mezcla.</p>
     `,
+    links: {
+      spotify: `https://open.spotify.com/album/1k9Vhr8xLbzN7Nn0l5ozen?si=lbhLeMISTd--SK2dgEZ49w`,
+      soundcloud: `https://soundcloud.com/anderground/sets`,
+      youtube: `https://www.youtube.com/watch?v=yO8bFdtLd5c`,
+    },
     visuals: [
        { image: 'Midaz_Piscis.jpg' },
       { image: 'Monblume.jpg' }
