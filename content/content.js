@@ -205,12 +205,12 @@ const projects = [
     },
     visuals: [
       { image: 'Spotify.jpg' },
-      { image: '003337--32--VK.JPG' },
-      { image: '003339--23--VK.JPG' },
-      { image: '003337--41--VK.JPG' },
+      { image: 'ANDER_1.jpg' },
+      { image: 'ANDER_2.jpg' },
+      { image: 'ANDER_3.jpg' },
+      { image: 'ANDER_4.jpg' },
       { vimeo: `985012270?h=e38d3b1611` },
       { vimeo: `985788851?h=bfded2fb90` },
-      //{ image: 'ander1.jpg' },
     ],
   },
   {
