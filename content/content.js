@@ -190,6 +190,8 @@ const projects = [
       { image: 'Dublab_Foto_2.jpg' },
       //{ image: 'Dublab_Web.jpg' },
       { image: 'Dublab_Foto_1.jpg' },
+      { image: 'Dublab_Foto_3.jpg' },
+      { image: 'Dublab_Foto_4.jpg' },
     ],
   },
   { 
