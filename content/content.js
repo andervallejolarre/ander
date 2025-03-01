@@ -241,8 +241,8 @@ const projects = [
     `,
     links: {
       spotify: `https://open.spotify.com/album/1k9Vhr8xLbzN7Nn0l5ozen?si=lbhLeMISTd--SK2dgEZ49w`,
-      soundcloud: `https://soundcloud.com/anderground/sets`,
       youtube: `https://www.youtube.com/watch?v=yO8bFdtLd5c`,
+      soundcloud: `https://soundcloud.com/anderground/sets`,
     },
     visuals: [
        { image: 'Midaz_Piscis.jpg' },
