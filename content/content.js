@@ -118,9 +118,9 @@ const projects = [
       soundcloud: `https://soundcloud.com/anderground/tracks`,
     },
     visuals: [
-      { image: 'Fusion_Botanica_Cierre.jpg' },
-      { image: 'Fusion_Botanica_2.jpg' },
+      { image: 'Fusion_Botanica_Portada.jpg' },
       { image: 'Fusion_Botanica_1.jpg' },
+      { image: 'Fusion_Botanica_2.jpg' },
       { image: 'Fusion_Botanica_3.jpg' },
       { image: 'Fusion_Botanica_4.jpg' },
       { image: 'Fusion_Botanica_5.jpg' },
@@ -130,7 +130,7 @@ const projects = [
       { image: 'Fusion_Botanica_9.jpg' },
       { image: 'Fusion_Botanica_10.jpg' },
       //{ image: 'Fusion_Botanica_11.jpg' },
-      { image: 'Fusion_Botanica_Portada.jpg' }
+      { image: 'Fusion_Botanica_Cierre.jpg' }
     ],
   },
   { 
