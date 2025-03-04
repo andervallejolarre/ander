@@ -12,6 +12,9 @@ const projects = [
       <p>Más allá de la instalación en sí, este proyecto representó para mí un desafío personal. Buscaba mi primera experiencia en el mundo de la iluminación, un campo que complementa mi experiencia en programación, sonido, fabricación digital y sistemas electrónicos. Durante tres días, la instalación estuvo operativa en exteriores, resistiendo lluvia y fuertes vientos, sin comprometer su estética ni su funcionalidad. </p>
       <p>El resultado fue una pieza visualmente atractiva, inmersiva y accesible al público, que consiguió materializar una coreografía lumínica basada en patrones observados durante nuestra investigación. Una actualización de la obra de Nouvel a las inquietudes de nuestro tiempo, proyectando sobre el parque no solo luz, sino preguntas sobre el presente y el futuro de nuestro cielo.</p>
       `,
+    links: {
+      llumBCN: `https://www.barcelona.cat/llumbcn/es`,
+    },
     visuals: [
       { image: '1_Pozos.jpg' },
       { image: '2_Pozos.jpg' },
