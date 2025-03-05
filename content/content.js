@@ -73,7 +73,7 @@ const projects = [
       <p>La instalación artística inmersiva “Simbioc3no: Temporalidades ecoicas y memorias futuras”  pretende retratar un escenario futuro de la naturaleza donde el ser humano ya no es parte de ella pero la huella de nuestra existencia si.</p>
       <p>Luego de una sexta extinción masiva y con unas condiciones planetarias que impiden el funcionamiento de los ecosistemas tal cual como los conocemos hoy en día, se requieren de nuevos sistemas de colaboración y comunicación intraespecie para retomar el balance natural.</p>
       <p>En colaboración con Andrea Galano, Pierantonio Mangia y Rocío Gomez, proponemos un sistema simbiótico en el que la naturaleza se apoya en la tecnología que dejamos los humanos y los residuos de nuestra actividad, para continuar con su existencia.</p>
-      <p>Partiendo de la reformulación del neo fosil, nos encontramos viajando por distintas eras geológicas que nos ayudaran a imagina una nueva, representada en una fábula especulativa de cuatro partes y una instalación audiovisual que implementara sistemas electrónicos de control, biofeedback, creative coding, iluminación programada y audio generativo.  </p>
+      <p>Partiendo de la reformulación del neo fosil, nos encontramos viajando por distintas eras geológicas que nos ayudaron a imaginar una nueva, representada en una fábula especulativa de cuatro partes y una instalación audiovisual que implementara sistemas electrónicos de control, biofeedback, creative coding, iluminación programada y audio generativo.</p>
       <p>Obra creada y presentada como Proyecto Final de Master en el master de Innovación Audiovisual y Entronos Interactivos (2023-2024) de la BAU Centre Universitari d’Arts i Disseny en Barcelona, España.</p>
     `,
     visuals: [
@@ -90,6 +90,44 @@ const projects = [
       { image: `Simbioceno_BioPlasticos_edit.jpg` },
       //{ image: `Simbioceno_Fabula especulativa.jpg` },
       { image: `Simbioc3no_edit.jpg` },
+    ],
+  },
+  { 
+    id: `holobiont-spell`, 
+    title: `A Holobiont Spell (Sound Design)`, 
+    category: 'Producción musical', 
+    description: `
+      <p>Assamblage(s): A Holobiont Spell es el trabajo de Andrea Galano Toro, desarrollado y presentado en la AiR Residency de Praga 2024, para la que participé sonorizando la obra e instalación final. Esta exploración resultó en un hechizo musicalizado y sonorizado que habitaría la galería de Jedna Dva Tri durante la exhibición Messages at the Crossroads (30.07.2024 - 06.09.2024).</p>
+      <p>El hechizo compuesto de cuatro partes (The Gut, The Shelter, The Stranger y The Debris) habla sobre la transformación y la relación del ser humano con su cuerpo, la vida que habita este cuerpo y los ecosistemas que en este se crean. Cada parte de este hechizo siendo tan característico y simbólico, fue representado de manera sonora mediante manipulación de samples, recreación de espacios, diseño de sonidos específicos que representaran aspectos únicos de cada escenario y la musicalización como parte del discurso/narrativa.</p>
+      <p>Para la realización de este trabajo fueron esenciales aspectos fundamentales de la obra de Andrea como los símbolos creados para cada parte, su visón y relación con ellas y lo más importante, su voz que narra el hechizo y que es la que nos conduce por esta experiencia de cambio e integración sonora.</p>
+    `,
+    links: {
+      soundcloud: `https://soundcloud.com/andrea-galano/assemblages-a-holobiont-spell2024`,
+    },
+    visuals: [
+      { image: 'Holobionte_Hechizo.jpg' },
+      { image: 'Holobionte_Instalacion.JPG' },
+      { image: 'Holobionte_Cartel.jpg' },
+      { image: 'Holobionte_Instalacion_2.JPG' },
+      { image: 'Holobionte_Creditos.jpg' },
+    ],
+  },
+   { 
+    id: `when-plants-sing`, 
+    title: `When... Plants... Sing`, 
+    category: 'Investigación artística', 
+    description: `
+      <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
+      <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
+      <p>Como objetivo, este proyecto pretende poner a disposición de todos el conocimiento adquirido en el curso de esta investigación es por esto que, desde su creacíon en 2022 se han llevado a cabo una serie de actividades interactivas, experiencias inmersivas y actuaciones músicales destinadas a esta labor.</p>
+    `,
+    links: {
+      instagram: `https://www.instagram.com/when.plants.sing/`,
+      soundcloud: `https://soundcloud.com/anderground/sets/when-plants-sing?si=e2387011c2ce47729ba9a40bd0d6d180&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
+    },
+    visuals: [
+      //{ image: 'W... P... S (Final).jpg' },
+      { image: 'IMG_1047.JPG' },
     ],
   },
   { 
@@ -166,24 +204,6 @@ const projects = [
       { image: `A56D7302-34FE-41B6-8BDE-1D3727A18AFD.JPG` }
     ],
   },
-  { 
-    id: `when-plants-sing`, 
-    title: `When... Plants... Sing`, 
-    category: 'Investigación artística', 
-    description: `
-      <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
-      <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
-      <p>Como objetivo, este proyecto pretende poner a disposición de todos el conocimiento adquirido en el curso de esta investigación es por esto que, desde su creacíon en 2022 se han llevado a cabo una serie de actividades interactivas, experiencias inmersivas y actuaciones músicales destinadas a esta labor.</p>
-    `,
-    links: {
-      instagram: `https://www.instagram.com/when.plants.sing/`,
-      soundcloud: `https://soundcloud.com/anderground/sets/when-plants-sing?si=e2387011c2ce47729ba9a40bd0d6d180&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
-    },
-    visuals: [
-      //{ image: 'W... P... S (Final).jpg' },
-      { image: 'IMG_1047.JPG' },
-    ],
-  },
    { 
     id: `radio-show`, 
     title: `Radio Show (Dublab.es)`, 
@@ -202,26 +222,6 @@ const projects = [
       { image: 'Dublab_Foto_4.jpg' },
       { image: 'Dublab_Foto_1.jpg' },
       { image: 'Dublab_Web.jpg' }
-    ],
-  },
-  { 
-    id: `holobiont-spell`, 
-    title: `A Holobiont Spell (Sound Design)`, 
-    category: 'Producción musical', 
-    description: `
-      <p>Assamblage(s): A Holobiont Spell es el trabajo de Andrea Galano Toro, desarrollado y presentado en la AiR Residency de Praga 2024, para la que participé sonorizando la obra e instalación final. Esta exploración resultó en un hechizo musicalizado y sonorizado que habitaría la galería de Jedna Dva Tri durante la exhibición Messages at the Crossroads (30.07.2024 - 06.09.2024).</p>
-      <p>El hechizo compuesto de cuatro partes (The Gut, The Shelter, The Stranger y The Debris) habla sobre la transformación y la relación del ser humano con su cuerpo, la vida que habita este cuerpo y los ecosistemas que en este se crean. Cada parte de este hechizo siendo tan característico y simbólico, fue representado de manera sonora mediante manipulación de samples, recreación de espacios, diseño de sonidos específicos que representaran aspectos únicos de cada escenario y la musicalización como parte del discurso/narrativa.</p>
-      <p>Para la realización de este trabajo fueron esenciales aspectos fundamentales de la obra de Andrea como los símbolos creados para cada parte, su visón y relación con ellas y lo más importante, su voz que narra el hechizo y que es la que nos conduce por esta experiencia de cambio e integración sonora.</p>
-    `,
-    links: {
-      soundcloud: `https://soundcloud.com/andrea-galano/assemblages-a-holobiont-spell2024`,
-    },
-    visuals: [
-      { image: 'Holobionte_Hechizo.jpg' },
-      { image: 'Holobionte_Instalacion.JPG' },
-      { image: 'Holobionte_Cartel.jpg' },
-      { image: 'Holobionte_Instalacion_2.JPG' },
-      { image: 'Holobionte_Creditos.jpg' },
     ],
   },
   {
