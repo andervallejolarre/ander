@@ -128,7 +128,7 @@ const projects = [
     visuals: [  
       //{ image: 'IMG_1047.JPG' },
       { image: 'W...P...S_Portada_EPK.jpg' },
-      { image: 'W...P...S_Walk_2.jpeg' },
+      { image: 'W...P...S_Walk_3.jpeg' },
       { image: 'W...P...S_Walk_1.jpeg' },
     ],
   },
