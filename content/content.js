@@ -120,7 +120,8 @@ const projects = [
       <p>Proyecto personal enfocado en conocer el mundo vegetal desde un punto ecológico/artístico, sirviéndose de la tecnología como puente de conexión con lo que estos organismos tienen para enseñarnos.</p>
       <p>Con herramientas tecnológicas como el biofeedback se habilitan posibilidades de interracción que al ponerse en practica invitan inmediatamente a reflexionar en su papel en el mundo y de nuestra relación con ellxs.</p>
       <p>Como objetivo, este proyecto pretende poner a disposición de todos el conocimiento adquirido en el curso de esta investigación es por esto que, desde su creacíon en 2022 se han llevado a cabo una serie de actividades interactivas, experiencias inmersivas y actuaciones músicales destinadas a esta labor.</p>
-      <p>Basando su actividad principalmente en Barcelona, el proyecto ha llegado a participar en programas de televisión locales y en la radio comunitaria Dublab.cat dónde tenemos un programa mensual. Actualmente el proyecto continua explorando nuevas tecnologías y acercamientos a la hora de investigar artísticamente a estos seres fascinantes que puedan compartirse al mundo y seguir generando experiencias únicas.</p>
+      <p>Basando su actividad principalmente en Barcelona, el proyecto a parte de su participación en eventos y festivales, ha llegado a participar en programas de televisión locales y en radios comunitarias como Dublab.cat dónde mantiene un programa mensual.</p>
+      <p>Actualmente el proyecto continua explorando nuevas tecnologías y acercamientos a la hora de investigar artísticamente a estos seres fascinantes. Una exploración de la cual aseguro, seguirán saliendo propuestas y experiencias muy atractivas e innovadoras.</p>
     `,
     links: {
       instagram: `https://www.instagram.com/when.plants.sing/`,
