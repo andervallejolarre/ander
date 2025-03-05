@@ -130,7 +130,7 @@ const projects = [
       { image: 'W...P...S_Walk_4.jpeg' },
       { image: 'W...P...S_Walk_1.jpeg' },
       { image: 'IMG_1047.JPG' },
-      { image: 'W...P...P_Fest_1.JPG' },
+      { image: 'W...P...S_PFest_1.JPG' },
       { image: 'W...P...S_PFest_2.jpg' },
     ],
   },
