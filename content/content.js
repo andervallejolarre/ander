@@ -281,7 +281,7 @@ const projects = [
 
 const aboutContent = {
        image: 'BIO_1.jpg',
-       image: 'BIO_2.jpg',
+       image2: 'BIO_2.jpg',
   about: `
     <p>Ander Vallejo Larre es un productor musical, artista digital y researcher. Con especial interés en la conexión entre la ciencia y el arte, la utilización de nuevas tecnologías y el rol del artista/compositor como divulgador de conocimiento. Su práctica se ha basado en la investigación de herramientas electrónicas como extensión de la naturaleza, con especial interés en la sonificación y el uso de interfaces para la improvisación, técnicas que han sido desarrolladas a lo largo de su trabajo.</p>
     <p>Como músico ha participado en festivales y escenarios importantes de Ecuador y de España donde, como productor musical, participa en festivales como LAVS Mataró, Planteka Fest o medios importantes de televisión como rtve en el programa “Va de Verd”. En Barcelona empieza su incursión en la creación de instalaciones inmersivas y obras interactivas que se expondrían en distintos lugares de Barcelona, Buenos Aires, entre otras ciudades. Su actividad, el mensaje y su adentramiento en la escena local Barcelonés lo llevan a participar en [Dubla.es](http://Dubla.es) Radio comunitaria con un programa mensual didáctico y de entretenimiento.</p>
