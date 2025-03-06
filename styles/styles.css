@@ -220,6 +220,16 @@ p+p {
   display: block;
 }
 
+.about-image-section {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.about-image-section::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
 .about-text-section {
   align-self: end;
   padding-block: var(--page-padding);
