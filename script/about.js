@@ -15,6 +15,7 @@ const textSection = `
 
 const imageSection = `
   <div class="about-image-section">
+    <img src="../content/images/${aboutContent.image}">,
     <img src="../content/images/${aboutContent.image}">
   </div>
 `
