@@ -235,6 +235,7 @@ p+p {
   padding-block: var(--page-padding);
   padding-right: var(--page-padding);
   overflow: auto;
+  max-height: 100vh;
 }
 
 @media (max-width: 1024px) {
@@ -243,7 +244,9 @@ p+p {
   }
 
   .about-text-section {
-  padding-right: unset;
+    overflow:unset;
+    max-height:unset;
+    padding: var(--page-padding); 
   }
 }
 
