@@ -207,6 +207,7 @@ p+p {
 
 
 .about-image-section {
+  overflow: auto;
   padding-block: var(--page-padding);
   max-height: calc(100vh - var(--page-padding));
 }
