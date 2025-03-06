@@ -207,8 +207,12 @@ p+p {
 
 
 .about-image-section {
+  overflow: auto;
   padding-block: var(--page-padding);
+  display:grid;
+  gap: var(--page-padding);
   max-height: calc(100vh - var(--page-padding));
+  
 }
 
 .about-image-section img {
@@ -224,7 +228,7 @@ p+p {
   max-height: 100vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about-image-section {
     padding: unset;
   }
