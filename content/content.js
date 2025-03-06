@@ -280,6 +280,7 @@ const projects = [
 ]
 
 const aboutContent = {
+  image: 'BIO_1.jpg',
   image: 'BIO_2.jpg',
   about: `
     <p>Ander Vallejo Larre es un productor musical, artista digital y researcher. Con especial interés en la conexión entre la ciencia y el arte, la utilización de nuevas tecnologías y el rol del artista/compositor como divulgador de conocimiento. Su práctica se ha basado en la investigación de herramientas electrónicas como extensión de la naturaleza, con especial interés en la sonificación y el uso de interfaces para la improvisación, técnicas que han sido desarrolladas a lo largo de su trabajo.</p>
