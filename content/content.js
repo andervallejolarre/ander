@@ -296,7 +296,7 @@ const aboutContent = {
     <p>Over time, my deepening interest in electronic and analog instruments led me to explore electronics and programming. This, combined with my growing focus on interactive narratives around botany and ecology, motivated me to continue my studies in Barcelona, pursuing a degree that would broaden my knowledge in these areas and push me to further develop my work.</p>
   `,
   studies: `
-    <p>MA MA in Audiovisual Innovation and Interactive Environments. BAU Centro Universitario de Artes y Diseño en Barcelona, Spain. 2023 - 2024</p>
+    <p>MA in Audiovisual Innovation and Interactive Environments. BAU Centro Universitario de Artes y Diseño en Barcelona, Spain. 2023 - 2024</p>
     <p>BA in Contemporary Music and Jazz Piano. Universidad San Francisco de Quito, Ecuador (Berklee International Network). 2015 - 2017</p>
     <p>BA in Music Production and Sound Engineering. Universidad Sanfrancisco de Quito, Ecuador (Berklee International Network). 2010 - 2015</p>
   `
