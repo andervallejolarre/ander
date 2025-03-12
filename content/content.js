@@ -216,7 +216,7 @@ const projects = [
   },
    { 
     id: `radio-show`, 
-    title: `Radio Show (Dublab.es)`, 
+    title: `Radio Show (Dublab.cat)`, 
     category: 'Artistic Research', 
     description: `
       <p>In 2023, When… Plants… Sing joined DubLab.cat, Barcelona’s community radio, with a monthly program focused on the intersection of art, technology, and ecology.</p>
