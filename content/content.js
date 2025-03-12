@@ -219,13 +219,13 @@ const projects = [
     title: `Radio Show (Dublab.es)`, 
     category: 'Artistic Research', 
     description: `
-      <p>In 2023, When… Plants… Sing joined DubLab.es, Barcelona’s community radio, with a monthly program focused on the intersection of art, technology, and ecology.</p>
+      <p>In 2023, When… Plants… Sing joined DubLab.cat, Barcelona’s community radio, with a monthly program focused on the intersection of art, technology, and ecology.</p>
       <p>The program alternates between a spoken, informative Part A and a Part B featuring music and sound archives from various artists whose work aligns with the theme of each episode.</p>
       <p>Now in its second season, the show has explored topics such as the history of biofeedback, botanical-inspired art, lesser-known aspects of plant interaction, and current artistic explorations engaging with this ideas.</p>
       <p>As it continues to grow, the program experiments with new formats by inviting artists and scientists relevant to the project, as well as incorporating live plant-music sections.</p>
     `,
       links: {
-      dublab: `https://www.dublab.es`,
+      dublab: `https://www.dublab.cat/shows/whenplantssing`,
       mixcloud: `https://www.mixcloud.com/dublabes/when-plants-sing-29112024-w-ander-vallejo/`,
     },
     visuals: [
