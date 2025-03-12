@@ -2,7 +2,7 @@ const projects = [
   {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
-    category: 'Instalaciones y obras artísticas',
+    category: 'Immersive & interactive works',
     description: `
       <p>‘Pozos del Cielo’ is a light installation that reflects on space travel and the growing aerospace race in which we find ourselves immersed. It is inspired by the sculptures of the same name by Jean Nouvel, located in the central park of Poble Nou, Barcelona. The piece revisits the architect’s original idea: a window to the sky that allows light to pass through a dense layer of vegetation, designed to gradually cover the park over time. Back then, Nouvel aimed to address concerns about urban pollution, offering a space for contemplation and a connection to the sky in the middle of the city. Now, years later, we ask ourselves what else this well might reveal and what other things, besides light, could filter through it.</p>
       <p>If we look up at the sky in complete darkness, we find the moon, the stars, and celestial bodies that evoke peace and purity. But alongside them, satellites, fragments of space debris, and spacecraft also orbit. The occupation of outer space has grown exponentially, and the number of satellites in orbit continues to rise. This installation reinterprets Nouvel’s work in light of this transformation, establishing a dialogue between his original vision and today’s technological reality.</p>
@@ -36,7 +36,7 @@ const projects = [
   { 
     id: `la-loba-capitulo-3`, 
     title: `La Loba (Capítulo 3)`, 
-    category: 'Instalaciones y obras artísticas', 
+    category: 'Immersive & interactive works', 
     description: `
       <p>An interactive artistic piece (one of three in total) developed in collaboration with ceramic artist Lili Díaz and singer Camila Terán, as part of the exhibition “Puede ser en el Bosque”, an immersive experience in nature where various artistic disciplines intertwined with the landscape. Inspired by the legend of “La Loba”, which tells the story of a wolf skeleton transforming into a woman through chants of an old woman, the piece invites the audience into an act of listening and discovery.</p>
       <p>Suspended in the middle of the forest, the ceramic sculpture held at its center a halo of stars, evoking the symbolism of the sacred. At first sight, the piece projected a sense of stillness, but as visitors approached, they became immersed in a weaving of voices and guttural sounds resonating from within. Howls, laughter, and ancestral chants emerged from the sculpture, but stepping closer to the halo transformed the experience: a proximity sensor triggered a secret message, whispered uniquely and unrepeatably into each visitor’s ear.</p>
@@ -68,7 +68,7 @@ const projects = [
   {
     id: `simbioc3no`,
     title: `Simbioc3no`,
-    category: `Instalaciones y obras artísticas`,
+    category: `Immersive & interactive works`,
     description: `
       <p>The immersive art installation “Simbioc3no: Temporalidades ecoicas y memorias futuras” envisions a future scenario where nature persists without humans, yet the imprint of our existence remains.</p>
       <p>After a sixth mass extinction and under planetary conditions that prevent ecosystems from functioning as we know them today, new systems of intra-species collaboration and communication became necessary to restore natural balance.</p>
@@ -95,7 +95,7 @@ const projects = [
   { 
     id: `holobiont-spell`, 
     title: `A Holobiont Spell (Sound Design)`, 
-    category: 'Producción musical', 
+    category: 'Sound & Music Production', 
     description: `
       <p>Assamblage(s): A Holobiont Spell is a work by Andrea Galano Toro, developed and presented during the AiR Residency in Prague 2024, for which I contributed by creating the sound design for both the piece and its final installation. This exploration resulted in a musicalized and sound-designed spell, inhabiting the gallery space of Jedna Dva Tri as part of the exhibition Messages at the Crossroads (30.07.2024 - 06.09.2024).</p>
       <p>The spell, structured in four parts—The Gut, The Shelter, The Stranger, and The Debris—explores transformation and the human relationship with the body, the life it hosts, and the ecosystems it forms. Each section, deeply symbolic and distinct, was represented sonically through sample manipulation, spatial recreation, and carefully crafted sound design, with music serving as both a narrative and expressive vehicle.</p>
@@ -115,7 +115,7 @@ const projects = [
    { 
     id: `when-plants-sing`, 
     title: `When... Plants... Sing`, 
-    category: 'Investigación artística', 
+    category: 'Artistic Research', 
     description: `
       <p>A personal project that explores the vegetal realm through both ecological and artistic lenses, using technology as a tool to engage with these organisms and what they can reveal to us.</p>
       <p>By incorporating biofeedback and other interactive technologies, the project opens up new and innovative ways to connect with plants, expanding the possibilities of interaction and encouraging reflection on their place in the world and our relationship with them.</p>
@@ -143,7 +143,7 @@ const projects = [
   { 
     id: `planta-kinetica`, 
     title: `Planta Kinética`, 
-    category: 'Instalaciones y obras artísticas', 
+    category: 'Immersive & interactive works', 
     description: `
       <p>An artistic piece exploring the connection between digital organisms and organic matter, resulting in a digital plant that detects changes in soil moisture and activates accordingly.</p>
       <p>When the soil reaches an optimal moisture level, the plant begins a cycle of rotational movements that continues until the soil dries. Its structure features a light display that responds to its motion and sends OSC signals, allowing it to connect with other digital organisms.</p>
@@ -164,7 +164,7 @@ const projects = [
   { 
     id: `fusion-botanica`, 
     title: `Fusión Botánica`, 
-    category: 'Instalaciones y obras artísticas', 
+    category: 'Immersive & interactive works', 
     description: `
       <p>An audiovisual installation designed to take visitors into different natural environments of our planet through the arrangement of plants and the characteristic sounds of each place.</p>
       <p>With a strong emphasis on generative audio-visual atmospheres, the project seeks to integrate plants into the experience, allowing them to influence its behavior. Using biofeedback techniques, the plants were enabled to take control of various sound and lighting elements, becoming an active part of this new environment.</p>
@@ -194,7 +194,7 @@ const projects = [
   { 
     id: `nou-space`, 
     title: `Nou Space`, 
-    category: 'Instalaciones y obras artísticas', 
+    category: 'Immersive & interactive works', 
     description: `
       <p>A quadraphonic sound installation created under the concept “21st Century Dialogues: From the Physical to the Digital” to set the atmosphere for Nou Lab’s first exhibition.</p>
       <p>Randomized digital sequences controlling analog synthesizers, combined with field recordings processed and modified by computers. Sounds distributed throughout the space transformed the exhibition’s contemplative nature into an immersive experience that housed the works of Stella Rahola, Riviersneda, and Francisco M Lucini.</p>
@@ -217,7 +217,7 @@ const projects = [
    { 
     id: `radio-show`, 
     title: `Radio Show (Dublab.es)`, 
-    category: 'Investigación artística', 
+    category: 'Artistic Research', 
     description: `
       <p>In 2023, When… Plants… Sing joined DubLab.es, Barcelona’s community radio, with a monthly program focused on the intersection of art, technology, and ecology.</p>
       <p>The program alternates between a spoken, informative Part A and a Part B featuring music and sound archives from various artists whose work aligns with the theme of each episode.</p>
@@ -240,7 +240,7 @@ const projects = [
   {
     id: 'ander',
     title: 'ANDER',
-    category: 'Producción musical',
+    category: 'Sound & Music Production',
     description: `
       <p>Personal project focused on exploring production and composition techniques within electronic music.</p>
       <p>This project navigates through different genres within the style, expanding the range of themes to be analyzed, experimented with, and integrated.</p>
@@ -264,7 +264,7 @@ const projects = [
   {
     id: 'proyectos-externos',
     title: 'Otras producciones',
-    category: 'Producción musical',
+    category: 'Sound & Music Production',
     description: `
       <p>As a music producer, collaborating on external projects has been essential, involving direct work with artists, bands, producers, and creative teams.</p>
       <p>This has meant working on composition and arrangement, handling sound engineering aspects like recording, mixing, and sound design, as well as taking on logistical and organizational roles when coordinating with engineers, agents, and distributors.</p>
