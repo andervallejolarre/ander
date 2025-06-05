@@ -285,7 +285,6 @@ const projects = [
 
 const aboutContent = {
        image: 'BIO_1.jpg',
-       image2: 'BIO_2.jpg',
   about: `
     <p>Ander Vallejo Larre is an Immersive Experience Producer and Creative Technologist with a strong interest in the intersection of science and art, the use of emerging technologies, and the role of artists as transmitters of knowledge. With a background in sound and music production, his work places sound at the core of the experience — a primary channel for engaging audiences emotionally and spatially. His practice explores electronic tools as an extension of nature, generative as well as data-driven systems, and the use of interfaces for improvisation—techniques that have evolved throughout his career.</p>
     <p>As a musician, he has performed at major festivals and venues in Ecuador and Spain. As a music producer, he has participated in festivals such as LAVS Mataró and Planteka Fest, as well as in prominent media outlets like RTVE’s Va de Verd. In Barcelona, he began exploring immersive installations and interactive works, which have been exhibited in various locations, including Barcelona and Buenos Aires.</p>
