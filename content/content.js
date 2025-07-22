@@ -1,5 +1,5 @@
 const projects = [
-  {
+  /*{
     id: `simbiocenoII`,
     title: `Symbioceno II (Exxabrupto 2025)`,
     category: `Immersive & interactive works`,
@@ -20,7 +20,7 @@ const projects = [
       { image: `SymbiocenoII_11 copia.JPG` },
       { image: `SymbiocenoII_12 copia.JPG` },
     ],
-  },
+  },*/
   {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
