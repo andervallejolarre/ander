@@ -1,10 +1,14 @@
 const projects = [
-  /*{
+  {
     id: `simbiocenoII`,
-    title: `Symbioceno II (Exxabrupto 2025)`,
+    title: `Symbioc3no v.2 (Exabrupto 2025)`,
     category: `Immersive & interactive works`,
     description: `
-      <p>HOLA</p>
+      <p>The second iteration of the speculative symbiotic ecosystem developed in collaboration with Andrea Galano and Rocío Gómez. This version was presented at the 10th edition of the Exabrupto Festival in Moià, Catalunya, held under the theme “Genesis”. The curatorial framework proposed a critical reading of the Judeo-Christian origin story to explore processes of creation, domination and transformation in contemporary bodies, systems and imaginaries. Within this context, Symbioc3no was framed as a technonatural fable of alternate beginnings, where the artificial and the living intertwine in a narrative of mutual dependency and speculative emergence.</p>
+      <p>The installation maintained its dual ecosystem structure—one aerial and one terrestrial-aquatic—but introduced a transformation in both material and symbolic composition. The aerial ecosystem was redesigned to evoke the possibility of another world: new colours, materials and plant species were chosen to suggest different climatic conditions, or geographies that could belong to another time, another layer of the Earth. </p>
+      <p>In parallel, Symbioc3no v.2 incorporates a significant technical evolution, addressing the installation’s need for autonomy as well as its narrative depth. A redesigned water supply system—using a pump, tubing and solenoid valves—supports continuous operation over long periods.</p>
+      <p>The lighting system was also expanded, introducing different states of light that reflect transitions within the experience. These variations allow time within the system to branch, breathe and shift in response to internal interactions.</p>
+      <p>Most important, at the core of this organic control is a generative system driven by the biosignals of a plant inhabiting the aerial ecosystem. Developed from research conducted in the project When… Plants… Sing, these signals influence the entire structure—modulating light, sound, water flow, and the rhythms of the terrestrial platform. The plant becomes the nervous centre of the system, making the installation responsive, adaptive, and in a certain sense, alive.</p>
     `,
     visuals: [
       { image: `SymbiocenoII_1.jpg` },
@@ -20,7 +24,7 @@ const projects = [
       { image: `SymbiocenoII_11 copia.JPG` },
       { image: `SymbiocenoII_12 copia.JPG` },
     ],
-  },*/
+  },
   {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
