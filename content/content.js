@@ -10,6 +10,9 @@ const projects = [
       <p>The lighting system was also expanded, introducing different states of light that reflect transitions within the experience. These variations allow time within the system to branch, breathe and shift in response to internal interactions.</p>
       <p>Most important, at the core of this organic control is a generative system driven by the biosignals of a plant inhabiting the aerial ecosystem. Developed from research conducted in the project When… Plants… Sing, these signals influence the entire structure—modulating light, sound, water flow, and the rhythms of the terrestrial platform. The plant becomes the nervous centre of the system, making the installation responsive, adaptive, and in a certain sense, alive.</p>
     `,
+    links: {
+      instagram: `https://www.instagram.com/andygalano/reel/DMNi4NAtHWk/?hl=en`,
+    },
     visuals: [
       { image: `SymbiocenoII_1.jpg` },
       { image: `SymbiocenoII_2.jpg` },
