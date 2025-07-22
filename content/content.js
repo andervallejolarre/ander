@@ -1,5 +1,27 @@
 const projects = [
   {
+    id: `simbiocenoII`,
+    title: `Symbioceno II (Exxabrupto 2025)`,
+    category: `Immersive & interactive works`,
+    description: `
+      <p>HOLA</p>
+    `,
+    visuals: [
+      { image: `SymbiocenoII_1.jpg` },
+      { image: `SymbiocenoII_2.jpg` },
+      { image: `SymbiocenoII_3.JPG` },
+      { image: `SymbiocenoII_4 copia.jpg` },
+      { image: `SymbiocenoII_5 copia.jpg` },
+      { image: `SymbiocenoII_6 copia.jpg` },
+      { image: `SymbiocenoII_7 copia.jpg` },
+      { image: `SymbiocenoII_8 copia.JPG` },
+      { image: `SymbiocenoII_9 copia.jpg` },
+      { image: `SymbiocenoII_10 copia.JPG` },
+      { image: `SymbiocenoII_11 copia.JPG` },
+      { image: `SymbiocenoII_12 copia.JPG` },
+    ],
+  },
+  {
     id: 'pozos-del-cielo',
     title: 'Pozos del Cielo (Llum 2025)',
     category: 'Immersive & interactive works',
