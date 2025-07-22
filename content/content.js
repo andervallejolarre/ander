@@ -8,8 +8,8 @@ const projects = [
       <p>The installation maintained its dual ecosystem structure—one aerial and one terrestrial-aquatic—but introduced a transformation in both material and symbolic composition. The aerial ecosystem was redesigned to evoke the possibility of another world: new colours, materials and plant species were chosen to suggest different climatic conditions, or geographies that could belong to another time, another layer of the Earth. </p>
       <p>In parallel, Symbioc3no v.2 incorporates a significant technical evolution, addressing the installation’s need for autonomy as well as its narrative depth. A redesigned water supply system—using a pump, tubing and solenoid valves—supports continuous operation over long periods.</p>
       <p>The lighting system was also expanded, introducing different states of light that reflect transitions within the experience. These variations allow time within the system to branch, breathe and shift in response to internal interactions.</p>
-      <p>Most important, at the core of this organic control is a generative system driven by the biosignals of a plant inhabiting the aerial ecosystem. Developed from research conducted in the project When… Plants… Sing, these signals influence the entire structure—modulating light, sound, water flow, and the rhythms of the terrestrial platform. The plant becomes the nervous centre of the system, making the installation responsive, adaptive, and in a certain sense, alive.</p>
-    <p>***Fotos 3, 4, 5 y 6: Càrdali (Eduard Morató)***</p>
+      <p>Most important, at the core of this organic control is a generative system driven by the biosignals of a plant inhabiting the aerial ecosystem. Developed from research conducted in my project When… Plants… Sing, these signals influence the entire structure—modulating light, sound, water flow, and the rhythms of the terrestrial platform. The plant becomes the nervous centre of the system, making the installation responsive, adaptive, and in a certain sense, alive.</p>
+    <p>***Photos 3, 4, 5 y 6: Càrdali (Eduard Morató)***</p>
     `,
     links: {
       instagram: `https://www.instagram.com/andygalano/reel/DMNi4NAtHWk/?hl=en`,
@@ -19,7 +19,7 @@ const projects = [
       { image: `SymbiocenoII_2.jpg` },
       { image: `SymbiocenoII_3.JPG` },
       { image: `SymbiocenoII_4 copia.jpg` },
-      { image: `SymbiocenoII_5 copia.jpg` },
+      //{ image: `SymbiocenoII_5 copia.jpg` },
       { image: `SymbiocenoII_6 copia.jpg` },
       { image: `SymbiocenoII_7 copia.jpg` },
       { image: `SymbiocenoII_8 copia.JPG` },
