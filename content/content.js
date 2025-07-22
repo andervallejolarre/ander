@@ -89,7 +89,7 @@ const projects = [
   },
   {
     id: `simbioc3no`,
-    title: `Simbioc3no`,
+    title: `Symbioc3no`,
     category: `Immersive & interactive works`,
     description: `
       <p>The immersive art installation “Simbioc3no: Temporalidades ecoicas y memorias futuras” envisions a future scenario where nature persists without humans, yet the imprint of our existence remains.</p>
